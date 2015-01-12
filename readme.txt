@@ -1,7 +1,7 @@
  === Easy Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: widget, image, images, image slider, slider plugin, plugin slider, post slider, page slider, post image slider, page image slider, slider, best slider, widget image slider, slider image, best slider plugin, best image slider, wp slider, wordpress seo, seo image, slideshow, slideshow plugin, plugin slideshow, slideshow image, widget slideshow, slideshow widget, wordpress slider, wp slider, slideshow image plugin
+Tags: 3D slider, best slider plugin, carousel, carousel slider, coin slider, coinslider, flex slider, free slider, free slideshow, Horizontal slider, HTML5 slider, image, Image Rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, Photo Slider, picture slider, plugin, Post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider, slider plugin, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, widget slideshow, widgets, wordpress seo, wordpress slider, wordpress slideshow, wp slider, plugin, animation slider, slider animation
 Requires at least: 3.5
 Tested up to: 4.1
 Stable tag: 1.0.7
