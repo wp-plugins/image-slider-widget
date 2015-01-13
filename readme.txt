@@ -44,7 +44,7 @@ Easy Image Slider - Displaying images as slider in your post/page/widget/sidebar
 > * 4 layouts, buttom thumbnails, left, right or with bullets only
 > * 360+ Slideshow Effects/Transitions
 > * 390+ Title Effects/Transitions
-> * Responsive
+> * 100% Responsive
 > * Touch Swipe by Finger/Mouse
 > * 10+ arrow styles
 > * +25 Slider Effect ( Easing )
