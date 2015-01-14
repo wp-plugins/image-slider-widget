@@ -20,7 +20,7 @@ Easy Image Slider - Displaying images as slider in your post/page/widget/sidebar
 > * Slider on Post / Page / Widget
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 > * Slideshow using adaptiveHeight
-> * Unlimited Images
+> * Unlimited Image Slider
 > * ON/OFF Auto Slider
 > * Slider Delay
 > * +25 Slider Effect ( Easing )
