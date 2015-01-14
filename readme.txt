@@ -24,7 +24,7 @@ Easy Image Slider - Displaying images as slider in your post/page/widget/sidebar
 > * ON/OFF Auto Slider
 > * Slider Delay
 > * +25 Slider Effect ( Easing )
-> * fade, Horizontal or vertical modes
+> * fade, Horizontal or vertical slider modes
 > * Open Slider in a Lightbox ( when clicked )
 
 ### Live Demo
