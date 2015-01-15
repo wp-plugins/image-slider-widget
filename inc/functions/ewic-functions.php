@@ -71,7 +71,7 @@ function ewic_check_browser_version_admin( $sid ) {
 function ewic_grab_slider_list_ajax() {
 	
 	if ( !isset( $_POST['grabslider'] ) ) {
-		die('');
+		wp_die();
 		} 
 		else {
 			
@@ -96,7 +96,7 @@ function ewic_grab_slider_list_ajax() {
 				}
 		
 			echo json_encode($list); //Send to Option List ( Array )
-			die();
+			wp_die();
 
 
 	}
