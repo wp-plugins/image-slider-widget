@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: 3D slider, best slider plugin, carousel, carousel slider, coin slider, slider responsive, coinslider, flex slider, free slider, free slideshow, Horizontal slider, HTML5 slider, image, Image Rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, Photo Slider, picture slider, plugin, Post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider, slider plugin, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, widget slideshow, widgets, wordpress seo, wordpress slider, wordpress slideshow, wp slider, plugin, animation slider, slider animation
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.7
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.0.9 =
+* Fixed : Wrong page URL on activation on WP Multisite
+
 = 1.0.7 =
 * Fixed : Wrong file URL on several subdomain
 
@@ -147,5 +150,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.0.7 =
-IMPORTANT! FIXED: Wrong file URL on several subdomain, PLEASE UPDATE NOW!
+= 1.0.9 =
+IMPORTANT! FIXED: Wrong page when activate in WP multi site, PLEASE UPDATE NOW!
