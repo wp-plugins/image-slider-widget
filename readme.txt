@@ -8,7 +8,7 @@ Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create image slider in post/page/widget/sidebar area with very easy.
+Create best image slider post/page/widget/sidebar area with very easy.
 
 == Description ==
 
