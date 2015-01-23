@@ -12,7 +12,7 @@ Create best image slider post/page/widget/sidebar area with very easy.
 
 == Description ==
 
-Easy Image Slider - Displaying images as slider in your post/page/widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+Best Image Slider - Displaying images as slider in your post/page/widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 ### Lite Features
 > 
