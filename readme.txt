@@ -21,7 +21,7 @@ Best Image Slider - Displaying image as slider in your post/page/widget/sidebar 
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 > * Slideshow using adaptiveHeight
 > * Unlimited Image Slider
-> * ON/OFF Auto Slider
+> * Auto Slider Control
 > * Slider Delay
 > * +25 Slider Effect ( Easing )
 > * fade, Horizontal or vertical slider modes
