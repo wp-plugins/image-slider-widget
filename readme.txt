@@ -1,7 +1,7 @@
  === Easy Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: 3D slider, best slider plugin, carousel, carousel slider, coin slider, slider responsive, coinslider, flex slider, free slider, free slideshow, Horizontal slider, HTML5 slider, image, Image Rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, Photo Slider, picture slider, plugin, the best slider, post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider, slider plugin, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, widget slideshow, widgets, wordpress seo, wordpress slider, wordpress slideshow, wp slider, plugin, animation slider, slider animation, slideshow image
+Tags: 3D slider, best slider plugin, carousel, carousel slider, coin slider, slider responsive, coinslider, flex slider, free slider, free slideshow, Horizontal slider, HTML5 slider, image, Image Rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, Photo Slider, picture slider, plugin, Post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider, slider plugin, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, widget slideshow, widgets, wordpress seo, wordpress slider, wordpress slideshow, wp slider, plugin, animation slider, slider animation
 Requires at least: 3.5
 Tested up to: 4.1
 Stable tag: 1.0.9
@@ -12,7 +12,7 @@ Create best image slider post/page/widget/sidebar area with very easy.
 
 == Description ==
 
-Image Slider - Displaying image as slider in your post/page/widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+Easy Image Slider - Displaying images as slider in your post/page/widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 ### Lite Features
 > 
@@ -21,7 +21,7 @@ Image Slider - Displaying image as slider in your post/page/widget/sidebar area 
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 > * Slideshow using adaptiveHeight
 > * Unlimited Image Slider
-> * Auto Slider Control
+> * ON/OFF Auto Slider
 > * Slider Delay
 > * +25 Slider Effect ( Easing )
 > * fade, Horizontal or vertical slider modes
