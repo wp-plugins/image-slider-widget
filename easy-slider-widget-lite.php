@@ -167,8 +167,7 @@ add_filter( 'widget_text', 'do_shortcode', 11 );
 /*  All Includes
 /*-------------------------------------------------------------------------------*/
 
-include_once( 'inc/functions/ewic-functions.php' ); 
-//include_once( 'inc/ewic-frontend.php' ); @since 1.0.5
+include_once( 'inc/functions/ewic-functions.php' );
 include_once( 'inc/ewic-tinymce.php' );
 include_once( 'inc/ewic-metaboxes.php' ); 
 include_once( 'inc/ewic-widget.php' ); 
