@@ -134,7 +134,7 @@ function ewic_share() {
 <div style="position:relative; margin-top:6px;">
 <ul class='ewic-social' id='ewic-cssanime'>
 <li class='ewic-facebook'>
-<a onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=Check out the Best Wordpress Image Slider Plugin&amp;p[summary]=Best Wordpress Image Slider Plugin is powerful and so easy to create image slider in minutes&amp;p[url]=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/&amp;p[images][0]=http://content.ghozylab.com/wp-content/uploads/2014/11/easy-slider-widget-320-200.png', 'sharer', 'toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" title="Share"><strong>Facebook</strong></a>
+<a onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=Check out the Best Image Slider Wordpress Plugin&amp;p[summary]=Best Image Slider Wordpress Plugin is powerful plugin to create image slider in minutes&amp;p[url]=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/&amp;p[images][0]=http://content.ghozylab.com/wp-content/uploads/2014/11/easy-slider-widget-320-200.png', 'sharer', 'toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" title="Share"><strong>Facebook</strong></a>
 </li>
 <li class='ewic-twitter'>
 <a onclick="window.open('https://twitter.com/share?text=Best Wordpress Image Slider Plugin &url=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/', 'sharer', 'toolbar=0,status=0,width=548,height=325');" title="Twitter" class="circle"><strong>Twitter</strong></a>
@@ -143,7 +143,7 @@ function ewic_share() {
 <a onclick="window.open('https://plus.google.com/share?url=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/','','width=415,height=450');"><strong>Google+</strong></a>
 </li>
 <li class='ewic-pinterest'>
-<a onclick="window.open('http://pinterest.com/pin/create/button/?url=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/;media=http://content.ghozylab.com/wp-content/uploads/2014/11/easy-slider-widget-320-200.png;description=Best Wordpress Image Slider Plugin','','width=600,height=300');"><strong>Pinterest</strong></a>
+<a onclick="window.open('http://pinterest.com/pin/create/button/?url=http://demo.ghozylab.com/plugins/easy-image-slider-plugin/;media=http://content.ghozylab.com/wp-content/uploads/2014/11/easy-slider-widget-320-200.png;description=Best Image Slider Wordpress Plugin','','width=600,height=300');"><strong>Pinterest</strong></a>
 </li>
 </ul>
 </div>
