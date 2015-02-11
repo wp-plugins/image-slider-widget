@@ -18,14 +18,14 @@ Easy Image Slider - Best Wordpress images slider to your post/page/widget/sideba
 > 
 > * Fully responsive - will adapt to any device
 > * Slider on Post / Page / Widget
-> * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
-> * Slideshow using adaptiveHeight
 > * Unlimited Image Slider
 > * ON/OFF Auto Slider
 > * Slider Delay
 > * +25 Slider Effect ( Easing )
 > * fade, Horizontal or vertical slider modes
 > * Open Slider in a Lightbox ( when clicked )
+> * Slideshow using adaptiveHeight
+> * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 
 ### Live Demo
 > 
