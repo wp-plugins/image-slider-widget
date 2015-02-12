@@ -40,17 +40,21 @@ Easy Image Slider - Best Wordpress images slider to your post/page/widget/sideba
 
 ### PRO Features
 > 
+> * Easy setup, Fully Themed, Simple to Implement
 > * Slider on Post / Page / Widget
 > * 4 layouts, buttom thumbnails, left, right or with bullets only
 > * 360+ Slideshow Effects/Transitions
 > * 390+ Title Effects/Transitions
-> * 100% Responsive
+> * Yep, it's 100% Responsive & Cross Browser
 > * Touch Swipe by Finger/Mouse
 > * 10+ arrow styles
 > * +25 Slider Effect ( Easing )
 > * Unlimited colors and layout
+> * Multiple Slideshows Supported
 > * Social Share Buttons
+> * Automatic Image Cropping
 > * Custom CSS and JS
+> * Tons of options
 
 = Scalable Layout Engine ( Pro ) =
 The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove navigator, arrow navigator and thumbnail navigator, or any decoration interface.
@@ -74,6 +78,7 @@ When touch the Slider, it will freeze and then move to the direction that finger
 The following are other recommended plugins by the author:
 
 * [Easy Media Gallery](http://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
+* [Easy Contact Form](http://goo.gl/I6e2R2) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
 * [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 
 == Installation ==
