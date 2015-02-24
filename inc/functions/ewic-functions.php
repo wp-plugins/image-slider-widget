@@ -16,6 +16,8 @@ function ewic_reg_script() {
 	wp_register_script( 'ewic-introjs', plugins_url( 'js/jquery/intro.min.js' , dirname(__FILE__) ), false );
 	wp_register_style( 'ewic-tinymcecss', plugins_url( 'css/tinymce.css' , dirname(__FILE__) ), false, EWIC_VERSION, 'all');
 	wp_register_script( 'ewic-tinymcejs', plugins_url( 'js/tinymce.js' , dirname(__FILE__) ), false );	
+	wp_register_style( 'ewic-bootstrap-css', plugins_url( 'css/bootstrap/css/bootstrap.min.css' , dirname(__FILE__) ), false, EWIC_VERSION );
+	wp_register_script( 'ewic-bootstrap-js', plugins_url( 'js/bootstrap/bootstrap.min.js' , dirname(__FILE__) ) );	
 		
 }
 add_action( 'admin_init', 'ewic_reg_script' );
@@ -109,7 +111,7 @@ add_action('wp_ajax_ewic_grab_slider_list_ajax', 'ewic_grab_slider_list_ajax');
 /*-------------------------------------------------------------------------------*/
 function ewic_upgrade_metabox () {
 	$enobuy = '<div style="text-align:center;">';
-	$enobuy .= '<a id="ewicprcngtableclr" style="outline: none !important;" target="_blank" href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
+	$enobuy .= '<a id="ewicprcngtableclr" style="outline: none !important;" href="#"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
 	$enobuy .= '</div>';
 echo $enobuy;	
 }

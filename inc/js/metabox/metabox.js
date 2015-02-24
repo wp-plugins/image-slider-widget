@@ -74,6 +74,18 @@ jQuery(document).ready(function($){
                 return false;
             } );
 			
+			
+			 // Upgrade Popup
+ 			$('#ewicprcngtableclr').on( 'click', function() {
+				
+				$("#myModalupgrade").modal({
+					keyboard: false,
+					backdrop: 'static'
+					});
+					return false;
+					
+				});	
+			
 });	
 
 
