@@ -29,9 +29,13 @@ function ewic_load_script() {
 			wp_enqueue_style( 'ewic-sldr' );	
 			wp_enqueue_style( 'ewic-colorpicker' );		
 			wp_enqueue_style( 'ewic-introcss' );	
+			wp_enqueue_style( 'ewic-bootstrap-css' );
 			wp_enqueue_script( 'ewic-colorpickerjs' );
 			wp_enqueue_script( 'jquery-ui-slider' );
 			wp_enqueue_script( 'ewic-introjs' );
+			wp_enqueue_script( 'ewic-bootstrap-js' );
+			
+			add_action('admin_footer', 'ewic_upgrade_popup' );
 					
 			}
 		}
@@ -41,6 +45,7 @@ function ewic_admin_head_script () {
 	if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post.php' ) ) {
 		if ( get_post_type( get_the_ID() ) == 'easyimageslider' ) {
 			?>
+            
 			<style type="text/css" media="screen">
 			@media only screen and (min-width: 1150px) {	
 		    	#side-sortables.fixed { position: fixed; top: 55px; right: 20px; width: 280px; }
@@ -432,5 +437,103 @@ function ewic_save_meta_box( $post_id ) {
 		}
 }
 add_action( 'save_post', 'ewic_save_meta_box' );
+
+
+function ewic_upgrade_popup() {
+	
+echo '<!-- Modal -->
+<div class="modal fade" id="myModalupgrade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width: 60%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Pricing Table</h4>
+            </div>
+            <div class="modal-body" style="background-color: #f5f5f5;">
+            
+           
+            <div class="row flat"> <!-- Content Start -->
+            
+            
+              <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Pro
+                    </li>
+                    <li class="plan-price">
+                        <strong>$'.EWIC_PRO.'</strong>
+                    </li>
+                    <li>
+                        <strong>1 site</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=eispro&utm_source=imageslider&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                    </li>
+                </ul>
+            </div> 
+            
+              <div class="col-lg-3 col-md-3 col-xs-6"><span class="featured"></span>
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Pro+
+                    </li>
+                    <li class="plan-price">
+                        <strong>$'.EWIC_PROPLUS.'</strong>
+                    </li>
+                    <li>
+                        <strong>3 sites</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=eisproplus&utm_source=imageslider&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                    </li>
+                </ul>
+            </div> 
+            
+              <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Pro++
+                    </li>
+                    <li class="plan-price">
+                        <strong>$'.EWIC_PROPLUSPLUS.'</strong>
+                    </li>
+                    <li>
+                        <strong>5 sites</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=eisplusplus&utm_source=imageslider&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                    </li>
+                </ul>
+            </div> 
+            
+              <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Developer
+                    </li>
+                    <li class="plan-price">
+                        <strong>$'.EWIC_DEV.'</strong>
+                    </li>
+                    <li>
+                        <strong>15 sites</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=eisdev&utm_source=imageslider&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                    </li>
+                </ul>
+            </div> 
+            
+            
+            </div><!-- Content End  --> 
+            
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!--  END HTML (to Trigger Modal) -->';	
+	
+	
+}
 
 ?>
