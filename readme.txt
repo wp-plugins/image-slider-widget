@@ -8,11 +8,11 @@ Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create best image slider post/page/widget/sidebar area with very easy.
+Create image slider for post, page, widget or sidebar in minutes.
 
 == Description ==
 
-Easy Image Slider - Best Wordpress images slider to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
+Best Wordpress images slider to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
 
 ### Lite Features
 > 
