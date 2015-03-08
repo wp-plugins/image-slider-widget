@@ -12,7 +12,7 @@ Create image slider for post, page, widget or sidebar in minutes.
 
 == Description ==
 
-Best Wordpress images slider to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
+Best images slider plugin to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
 
 ### Lite Features
 > 
