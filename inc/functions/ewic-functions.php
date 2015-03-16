@@ -84,6 +84,7 @@ function ewic_grab_slider_list_ajax() {
 			$args = array(
   				'post_type' => 'easyimageslider',
   				'order' => 'ASC',
+				'posts_per_page' => -1,
   				'post_status' => 'publish'
 		
 				);
