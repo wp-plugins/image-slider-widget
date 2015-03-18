@@ -9,6 +9,7 @@ jQuery(document).ready(function($){
 		
 		var $el = $(this);
 		var attachment_ids = $images_ids.val();
+		var attachment_img;
 		event.preventDefault();
 		
 		// If the media frame already exists, reopen it.
@@ -40,12 +41,22 @@ jQuery(document).ready(function($){
 				 if ( attachment.id ) {
 					 		$images_no.hide();
                             attachment_ids = attachment_ids ? attachment_ids + "," + attachment.id : attachment.id;
-
+							
+							if ( typeof attachment.sizes.thumbnail == "undefined" ) {
+								if ( typeof attachment.sizes.medium == "undefined" ) {
+									attachment_img = attachment.sizes.full.url;
+									} else {
+										attachment_img = attachment.sizes.medium.url;
+										}
+								} else {
+									attachment_img = attachment.sizes.thumbnail.url;
+									}
+							
                              $all_images.append('\
                                 <li class="ewicthumbhandler" data-attachment_id="' + attachment.id + '">\
 								<input type="hidden" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][images]" value="' + attachment.id + '" />\
 								<span class="ewic-shorter"></span>\
-                                <img src="' + attachment.sizes.thumbnail.url + '" />\
+                                <img src="' + attachment_img + '" />\
 								<span class="ewic-del-images"></span>\
 								<label for="title-for-'+ attachment.id +'">Title </label>\
 								<input class="images-title" type="text" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][ttl]" value="' + attachment.title + '"/>\
