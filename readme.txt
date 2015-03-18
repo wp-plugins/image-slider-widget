@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: image slider, carousel, slider, responsive slider, image, images, plugins, gallery, image slideshow, widget, photo slider
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -132,6 +132,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.0 =
+* Fixed : Blank when insert images
+* Fixed : Slider limit on List
+
 = 1.0.9 =
 * Fixed : Wrong page URL on activation on WP Multisite
 
@@ -155,5 +159,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.0.9 =
-IMPORTANT! FIXED: Wrong page when activate in WP multi site, PLEASE UPDATE NOW!
+= 1.1.0 =
+IMPORTANT! FIXED: Blank when insert images, PLEASE UPDATE NOW!
