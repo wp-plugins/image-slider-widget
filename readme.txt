@@ -12,7 +12,15 @@ Create image slider for post, page, widget or sidebar in minutes.
 
 == Description ==
 
-Best images slider plugin to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
+Best **images slider** plugin to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
+
+### Live Demo
+> 
+> * [DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
+> * [DEMO PRO VERSION : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
+> * [DEMO PRO VERSION : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
+> * [DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
+> * [DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
 
 ### Lite Features
 > 
@@ -26,14 +34,6 @@ Best images slider plugin to your post/page/widget/sidebar area. Allows you to c
 > * Open Slider in a Lightbox ( when clicked )
 > * Slideshow using adaptiveHeight
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
-
-### Live Demo
-> 
-> * [DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
-> * [DEMO PRO VERSION : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
-> * [DEMO PRO VERSION : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
-> * [DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
-> * [DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
 
 ### Plugin in Action (lite)
 <p>https://www.youtube.com/watch?v=-W8u_t05K2Y</p>
