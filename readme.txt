@@ -14,6 +14,13 @@ Create image slider for post, page, widget or sidebar in minutes.
 
 Best **images slider** plugin to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
 
+With the built-in transition effects, you can easily create stunning sliders without writing any JavaScript or CSS codes.
+
+With a self-explanatory user interface, the plugin is extremely easy to use. With the provided shortcode generator, it's also easy to insert the **slider** to your post, page and widget.
+
+The slider is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
+
+
 ### Live Demo
 > 
 > * [DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
