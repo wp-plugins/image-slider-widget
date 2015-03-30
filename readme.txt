@@ -1,7 +1,7 @@
  === Easy Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: image slider, carousel, slider, responsive slider, image, images, plugins, photo, image slideshow, widget, photo slider
+Tags: image slider, admin, slider, responsive slider, image, images, plugins, photo, image slideshow, widget, photo slider
 Requires at least: 3.5
 Tested up to: 4.1
 Stable tag: 1.1.0
