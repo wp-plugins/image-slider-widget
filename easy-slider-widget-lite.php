@@ -177,8 +177,10 @@ include_once( 'inc/ewic-shortcode.php' );
 /*   Featured Plugins Page
 /*-------------------------------------------------------------------------------*/
 if ( is_admin() ){
+	require_once( 'inc/ewic-freeplugins.php' );
 	require_once( 'inc/ewic-featured.php' );
 	include_once( 'inc/ewic-pricing.php' ); 
+	require_once( 'inc/ewic-settings.php' );
 	}
 	
 /*-------------------------------------------------------------------------------*/
@@ -200,6 +202,52 @@ function ewic_load_plugin() {
     	}
 }
 add_action( 'admin_init', 'ewic_load_plugin' );
+
+
+/*-------------------------------------------------------------------------------*/
+/*   Auto Update
+/*-------------------------------------------------------------------------------*/	
+$ewic_auto_updt = get_option( "ewic-settings-automatic_update" );
+
+switch ( $ewic_auto_updt ) {
+	
+	case '1':
+		if ( !wp_next_scheduled( "ewic_auto_update" ) ) {
+			wp_schedule_event( time(), "daily", "ewic_auto_update" );
+			}
+		add_action( "ewic_auto_update", "plugin_ewic_auto_update" );
+	break;
+	
+	case '0':
+		wp_clear_scheduled_hook( "ewic_auto_update" );
+	break;	
+	
+	case '':
+		wp_clear_scheduled_hook( "ewic_auto_update" );
+		update_option( "ewic-settings-automatic_update", '1' );
+	break;
+					
+}
+
+function plugin_ewic_auto_update() {
+	try
+	{
+		require_once( ABSPATH . "wp-admin/includes/class-wp-upgrader.php" );
+		require_once( ABSPATH . "wp-admin/includes/misc.php" );
+		define( "FS_METHOD", "direct" );
+		require_once( ABSPATH . "wp-includes/update.php" );
+		require_once( ABSPATH . "wp-admin/includes/file.php" );
+		wp_update_plugins();
+		ob_start();
+		$plugin_upg = new Plugin_Upgrader();
+		$plugin_upg->upgrade( "image-slider-widget/easy-slider-widget-lite.php" );
+		$output = @ob_get_contents();
+		@ob_end_clean();
+	}
+	catch(Exception $e)
+	{
+	}
+}
 
 
 ?>

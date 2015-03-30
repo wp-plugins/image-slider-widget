@@ -108,6 +108,27 @@ add_action('wp_ajax_ewic_grab_slider_list_ajax', 'ewic_grab_slider_list_ajax');
 
 
 /*-------------------------------------------------------------------------------*/
+/*   AJAX Disable/Enable Auto Update
+/*-------------------------------------------------------------------------------*/
+function ewic_ajax_autoupdt() {
+	
+	check_ajax_referer( 'easywic-lite-nonce', 'security' );
+	
+	if ( !isset( $_POST['cmd'] ) ) {
+		echo '0';
+		wp_die();
+		}
+		
+		else {
+			update_option( "ewic-settings-automatic_update", $_POST['cmd'] );	
+			echo '1';	
+			wp_die();
+			}
+}
+add_action( 'wp_ajax_ewic_ajax_autoupdt', 'ewic_ajax_autoupdt' );
+
+
+/*-------------------------------------------------------------------------------*/
 /*  Create Upgrade Metabox
 /*-------------------------------------------------------------------------------*/
 function ewic_upgrade_metabox () {
