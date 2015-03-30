@@ -3,7 +3,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 function ewic_featured_init() {
-    $ewic_featured_init = add_submenu_page('edit.php?post_type=easyimageslider', 'Featured Plugins', __('Featured Plugins', 'easywic'), 'edit_posts', 'ewic_featured_plugins', 'ewic_featured_page');
+    $ewic_featured_init = add_submenu_page('edit.php?post_type=easyimageslider', 'Premium Plugins', __('Premium Plugins', 'easywic'), 'edit_posts', 'ewic_featured_plugins', 'ewic_featured_page');
 }
 add_action( 'admin_menu', 'ewic_featured_init' );
 
@@ -12,7 +12,7 @@ function ewic_featured_page() {
 	ob_start(); ?>
 	<div class="wrap" id="ghozy-featured">
 		<h2>
-			<?php _e( 'GhozyLab Featured Plugins', 'easywic' ); ?>
+			<?php _e( 'GhozyLab Premium Plugins', 'easywic' ); ?>
 		</h2>
 		<p><?php _e( 'These plugins available on Lite and Pro version.', 'easywic' ); ?></p>
 		<?php echo ewic_get_feed(); ?>

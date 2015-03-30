@@ -143,7 +143,7 @@ function ewic_create_meta_box( $post, $meta_box )
 			$metattl = get_post_meta( $post->ID, 'ewic_meta_select_titles', true );
 			
 				echo '<td>
-				<span id="intro1" class="ewic_add_images button">Add Images</span>
+				<span id="intro1" class="ewic_add_images">Add Images</span>
 				<div id="ewic_images_container">
 				<ul class="images_list ui-sortable">';
 				
