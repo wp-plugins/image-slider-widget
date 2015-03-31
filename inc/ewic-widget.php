@@ -45,6 +45,7 @@ global $post;
 $args = array(
   'post_type' => 'easyimageslider',
   'order' => 'ASC',
+  'posts_per_page' => -1,
   'post_status' => 'publish'
 );
 
