@@ -20,7 +20,6 @@ With a self-explanatory user interface, the plugin is extremely easy to use. Wit
 
 The slider is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
 
-
 ### Live Demo
 > 
 > * [DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
@@ -85,9 +84,9 @@ When touch the Slider, it will freeze and then move to the direction that finger
 ### Recommended Plugins
 The following are other recommended plugins by the author:
 
-* [Easy Media Gallery](http://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
-* [Easy Contact Form](http://goo.gl/I6e2R2) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
-* [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+* [Easy Media Gallery](https://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
+* [Best Contact Form](https://wordpress.org/plugins/contact-form-lite/) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
+* [Easy Lightbox Popup](https://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 
 == Installation ==
 
@@ -112,11 +111,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy I
 1. Login to your website and go to the Plugins section of your admin panel.
 1. Look for "Easy Image Slider Widget" and click Activate.
 
-
 == Frequently Asked Questions ==
-
-Coming Soon
-
 
 = How can I get support? =
 
