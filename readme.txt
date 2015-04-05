@@ -62,6 +62,7 @@ The slider is 100% **responsive** and compatible with mobile, tablets, desktop c
 > * Automatic Image Cropping
 > * Custom CSS and JS
 > * Tons of options
+> * Open image on Lightbox
 
 = Scalable Layout Engine ( Pro ) =
 The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove navigator, arrow navigator and thumbnail navigator, or any decoration interface.
