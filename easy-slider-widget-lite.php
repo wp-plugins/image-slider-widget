@@ -2,7 +2,7 @@
 /*
 Plugin Name: Easy Slider Widget (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
-Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
+Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
 Version: 1.1.0
 Author URI: http://www.ghozylab.com/plugins/
