@@ -151,6 +151,24 @@ echo $enobuy;
 
 
 /*-------------------------------------------------------------------------------*/
+/*  RENAME POST BUTTON @since 1.1.0
+/*-------------------------------------------------------------------------------*/
+function ewic_change_publish_button( $translation, $text ) {
+	if ( 'easyimageslider' == get_post_type())
+		if ( $text == 'Publish' ) {
+    		return 'Save Slider';
+			}
+			else if ( $text == 'Update' ) {
+				return 'Update Slider';
+				}	
+
+	return $translation;
+}
+
+add_filter( 'gettext', 'ewic_change_publish_button', 10, 2 );
+
+
+/*-------------------------------------------------------------------------------*/
 /*   GENERATE SHARE BUTTONS
 /*-------------------------------------------------------------------------------*/
 function ewic_share() {
