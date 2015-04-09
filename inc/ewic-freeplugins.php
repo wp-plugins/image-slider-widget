@@ -3,7 +3,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 function ewic_rec_init() {
-    $ewic_featured_page = add_submenu_page('edit.php?post_type=easyimageslider', 'Free Plugins', __('Free Plugins', 'easywic'), 'edit_posts', 'ewic_free_plugins', 'ewic_free_plugin_page');
+    $ewic_featured_page = add_submenu_page('edit.php?post_type=easyimageslider', 'Free Install Plugins', __('Free Install Plugins', 'easywic'), 'edit_posts', 'ewic_free_plugins', 'ewic_free_plugin_page');
 }
 add_action( 'admin_menu', 'ewic_rec_init' );
 

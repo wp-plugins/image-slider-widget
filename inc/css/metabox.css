@@ -255,3 +255,9 @@ label.css-label {
 	position:relative;
 	top:1px;
 }
+
+#cscontw, #csconth {display: inline-block;}
+
+@media (min-width:769px) and (max-width:1024px){
+	#cscontw, #csconth {display: block !important; margin-bottom: 5px;}
+		}	
