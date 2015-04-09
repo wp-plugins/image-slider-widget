@@ -15,7 +15,7 @@ function ewic_stt_page() {
     <div class="wrap">
     <div class="metabox-holder">
 			<div class="postbox">
-            <h3 style="padding-bottom: 8px; border-bottom: 1px solid #CCC;"><?php _e( 'Global Settings', 'easywic' ); ?></h3>
+            <h3 style="padding-bottom: 8px; border-bottom: 1px solid #CCC;"><span class="setpre"></span><?php _e( 'Global Settings', 'easywic' ); ?></h3>
             <form id="easywic_settings">
             <div style="padding: 5px 15px 15px 15px;">
             <h4><?php _e( "Auto Update Plugin", "easywic" ); ?> :</h4>
@@ -30,12 +30,22 @@ function ewic_stt_page() {
 	</div>
     </div>
 
+<style>
+.setpre {
+	display:none;
+	margin-right:10px;
+	float: left;
+	width:16px;
+	height:16px;
+	background-repeat:no-repeat;
+	}
+</style>
 
 <script type="text/javascript">
 /*<![CDATA[*/
 
 	function ewic_ajax_autoupdt(cmd) {
-		
+		jQuery('.setpre').show().css('background-image','url(<?php echo plugins_url('images/89.gif' , __FILE__ ); ?>)');
 		var data = {
 			action: 'ewic_ajax_autoupdt',
 			security: '<?php echo wp_create_nonce( "easywic-lite-nonce"); ?>',				
@@ -44,9 +54,13 @@ function ewic_stt_page() {
 			
 			jQuery.post(ajaxurl, data, function(response) {
 				if (response == 1) {
-					alert('Settings Saved');
+					jQuery('.setpre').css('background-image','url(<?php echo plugins_url('images/valid.png' , __FILE__ ); ?>)');
+					setTimeout(function() {
+					jQuery('.setpre').fadeOut();
+					}, 3000);
 					}						
 					else {
+						jQuery('.setpre').hide();
 						alert('Ajax request failed, please refresh your browser window.');
 						}
 					});

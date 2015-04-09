@@ -197,7 +197,7 @@ function ewic_load_plugin() {
 
     if ( is_admin() && get_option( 'activatedewic' ) == 'ewic-activate' && !is_network_admin() ) {
 		delete_option( 'activatedewic' );
-		wp_redirect("edit.php?post_type=easyimageslider&page=ewiccomparison");
+		wp_redirect("edit.php?post_type=easyimageslider&page=ewic_free_plugins");
 		
     	}
 }

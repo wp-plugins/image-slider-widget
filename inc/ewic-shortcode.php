@@ -45,7 +45,9 @@ while ( $ewic_query->have_posts() ) : $ewic_query->the_post();
 		
 		// START GENERATE SLIDER
 		require_once 'ewic-template.php';
+		echo '<div id="ewic-con'.$iswidget.'-'.$id.'">';
 		echo ewic_generate_slider( $id, $iswidget );
+		echo '</div>';
 
 ?>
 

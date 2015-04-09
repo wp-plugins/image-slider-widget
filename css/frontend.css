@@ -70,4 +70,4 @@
 	z-index:9995;
 	}
 	
-	
+.sliderpreloader {width:100% !important; height:32px !important; background:url(../images/ajax-loader.gif) center center no-repeat !important; text-align:center;}

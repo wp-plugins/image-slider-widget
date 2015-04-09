@@ -255,6 +255,26 @@ function ewic_create_meta_box( $post, $meta_box )
 			    echo '</td>';
 			    break;	
 				
+			case 'customsize':
+			
+			    echo '<td>';
+				
+				if ( is_array( $meta ) ) {
+					$sw = $meta['width'];
+					$sh = $meta['height'];
+					} else {
+						$sw = $field['stdw'];
+						$sh = $field['stdh'];
+					}
+				
+                echo '<div id="cscontw"><strong>Width</strong> <input style="margin-right:5px !important; margin-left:3px; width:43px !important; float:none !important;" name="ewic_meta[ewic_meta_thumbsizelt][width]" id="'. $field['id'] .'_w" type="text" value="'.$sw.'" />  ' .$field['pixopr']. '</div>
+
+<span id="cssep" style="border-right:solid 1px #CCC;margin-left:9px; margin-right:10px !important; "></span>
+ 	<div id="csconth"><strong>Height</strong> <input style="margin-left:3px; margin-right:5px !important; width:43px !important; float:none !important;" name="ewic_meta[ewic_meta_thumbsizelt][height]" id="'. $field['id'] .'_h" type="text" value="'.$sh.'" /> ' .$field['pixopr']. '';
+				echo '</div>';
+			    echo '</td>';
+			    break;
+				
 	
 	
 /*-----------------------------------------------------------------------------------*/	
@@ -286,7 +306,7 @@ function ewic_metabox_work(){
 		
 			array(
 		
-					'name' => __( 'Video URL', 'easywic' ),
+					'name' => __( '', 'easywic' ),
 					'isfull' => 'yes',
 					'desc' => __( '', 'easywic' ),
 					'id' => 'ewic_meta_select_images',
@@ -309,6 +329,18 @@ function ewic_metabox_work(){
 		'context' => 'normal',
 		'priority' => 'default',
 		'fields' => array(
+		
+			array(
+					'name' => __( 'Slider Size', 'easywic' ),
+					'desc' => __( 'Use this option to set Slider custom width and height. We recommend to set AUTO for height.', 'easywic' ),
+					'id' => 'ewic_meta_thumbsizelt',
+					'type' => 'customsize',
+					'width' => 'tw',
+					'height' => 'th',
+					'stdw' => 'auto',
+					'stdh' => 'auto',					
+					"pixopr" => 'px',
+					),
 				 
 			array(
 					'name' => __( 'Auto Slide', 'easywic' ),
