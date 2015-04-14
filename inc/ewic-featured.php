@@ -14,7 +14,7 @@ function ewic_featured_page() {
 		<h2>
 			<?php _e( 'GhozyLab Premium Plugins', 'easywic' ); ?>
 		</h2>
-		<p><?php _e( 'These plugins available on Lite and Pro version.', 'easywic' ); ?></p>
+		<p><?php _e( 'These plugins available on Lite and Pro version. You can download the trial version <a href="'.admin_url( 'edit.php?post_type=easyimageslider&page=ewic_free_plugins' ).'">here</a>', 'easywic' ); ?></p>
 		<?php echo ewic_get_feed(); ?>
 	</div>
 	<?php
