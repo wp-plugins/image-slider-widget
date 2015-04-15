@@ -55,11 +55,11 @@ jQuery(document).ready(function($){
                              $all_images.append('\
                                 <li class="ewicthumbhandler" data-attachment_id="' + attachment.id + '">\
 								<input type="hidden" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][images]" value="' + attachment.id + '" />\
-								<span class="ewic-shorter"></span>\
+								<div class="ewic-shorters">\
                                 <img src="' + attachment_img + '" />\
 								<span class="ewic-del-images"></span>\
 								<label for="title-for-'+ attachment.id +'">Title </label>\
-								<input class="images-title" type="text" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][ttl]" value="' + attachment.title + '"/>\
+								<input class="images-title" type="text" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][ttl]" value="' + attachment.title + '"/></div>\
                                 </li>').hide().fadeIn(300);
 
                         }
