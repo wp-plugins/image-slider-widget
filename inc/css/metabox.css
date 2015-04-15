@@ -1,6 +1,6 @@
 .ewicthumbhandler {
     padding: 5px;
-    margin: 0px 0px 1.5% 1.5%;
+    margin: 0px 0px 1.5% 0px;
     background: none repeat scroll 0% 0% #FFF;
     display: block;
     vertical-align: top;
@@ -8,6 +8,7 @@
     box-shadow: 0px 0px 5px #DDD;
     -moz-box-sizing: border-box;
 	border-radius:5px;
+	cursor: move;
 	}
 	
 .ewicthumbhandler img {

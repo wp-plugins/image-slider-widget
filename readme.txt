@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: image slider, admin, slider, responsive slider, image, images, plugins, photo, seo, widget, photo slider
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,17 @@ The slider is 100% **responsive** and compatible with mobile, tablets, desktop c
 > * Slideshow using adaptiveHeight
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 
+= Slider / Image Slider =
+You can create image slider just in minutes, with awesome features you can easily add image into slider, drag & drop an images to re-order to fit your needs. **No need to Re-Upload** all your images because the plugin will use an images from your media library.
+You can also select and insert multiple images into your slider only by click **CTRL + Click** on each images that you choose. Yep, it's 100% Slider that very easy to use.
+
+= Image Lightbox =
+We already provide the awesome lightbox option in slider settings page so you can set the slider to opened into the lightbox when it's clicked. What more?
+
+= Responsive Slider =
+If you are interested in adding top class **image slider** on your website then here you will find the right slider plugin which will assist you to do that properly. Easy Image Slider will speed up the daily web design or development work.
+This slider plugin fully responsive and will adapt to any devices, Firefox, Chrome, Safari, iOS, Android, IE7+
+
 ### Plugin in Action (lite)
 <p>https://www.youtube.com/watch?v=-W8u_t05K2Y</p>
 
@@ -64,7 +75,7 @@ The slider is 100% **responsive** and compatible with mobile, tablets, desktop c
 > * Open image on Lightbox
 
 = Scalable Layout Engine ( Pro ) =
-The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove navigator, arrow navigator and thumbnail navigator, or any decoration interface.
+The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove slider navigator, slider arrow navigator and slider thumbnail navigator, or any decoration interface.
 
 = 360+ Slideshow Effects/Transitions ( Pro ) =
 Easy Image Slider Pro comes with 360+ awesome slideshow effects, and the most scalable slideshow transition build tool enables you build infinite slideshow transitions.
@@ -84,9 +95,16 @@ When touch the Slider, it will freeze and then move to the direction that finger
 ### Recommended Plugins
 The following are other recommended plugins by the author:
 
-* [Easy Media Gallery](https://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
-* [Best Contact Form](https://wordpress.org/plugins/contact-form-lite/) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
-* [Easy Lightbox Popup](https://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+* [Best Gallery Plugin](https://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
+* [Best Contact Form Plugin](https://wordpress.org/plugins/contact-form-lite/) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
+* [Best Popup Plugin](https://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+
+> #### **NOTE**
+> If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+
+= Technical Support =
+
+If any problem occurs or if you think, that you found a bug please contact us at [info@ghozylab.com](mailto:info@ghozylab.com).
 
 == Installation ==
 
@@ -135,6 +153,14 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.1 =
+* Added : Slider Size Control ( width & height ) option
+* Added : Slider preloader effect to make slider load fancy & smoothly
+* Fixed : jQuery Order issue, replace the element to make user easy to drag n drop
+* Fixed : CSS Issue on Slider Editor
+* Fixed : PHP Issue on Settings Page
+* Fixed : Many other PHP and CSS clean and optimization
+
 = 1.1.0 =
 * Fixed : Blank when insert images
 * Fixed : Slider limit on List
@@ -162,5 +188,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.1.0 =
-IMPORTANT! FIXED: Blank when insert images, PLEASE UPDATE NOW!
+= 1.1.1 =
+IMPORTANT! NEW Slider Size Option, PLEASE UPDATE NOW!

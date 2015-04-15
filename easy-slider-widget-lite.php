@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Easy Slider Widget (Lite)
+Plugin Name: Easy Image Slider (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.0
+Version: 1.1.1
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -35,11 +35,11 @@ add_action( 'admin_init', 'ewic_wordpress_version' );
 /*   MAIN DEFINES
 /*-------------------------------------------------------------------------------*/
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.0' );
+	define( 'EWIC_VERSION', '1.1.1' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
-	define( 'EWIC_NAME', 'Easy Slider Widget' );
+	define( 'EWIC_NAME', 'Easy Image Slider (Lite)' );
 	}
 	
 // Pro Price
@@ -211,20 +211,20 @@ $ewic_auto_updt = get_option( "ewic-settings-automatic_update" );
 
 switch ( $ewic_auto_updt ) {
 	
-	case '1':
+	case 'active':
 		if ( !wp_next_scheduled( "ewic_auto_update" ) ) {
 			wp_schedule_event( time(), "daily", "ewic_auto_update" );
 			}
 		add_action( "ewic_auto_update", "plugin_ewic_auto_update" );
 	break;
 	
-	case '0':
+	case 'inactive':
 		wp_clear_scheduled_hook( "ewic_auto_update" );
 	break;	
 	
 	case '':
 		wp_clear_scheduled_hook( "ewic_auto_update" );
-		update_option( "ewic-settings-automatic_update", '1' );
+		update_option( "ewic-settings-automatic_update", 'active' );
 	break;
 					
 }

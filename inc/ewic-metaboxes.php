@@ -60,7 +60,7 @@ function ewic_admin_head_script () {
 					revert: true,
 					placeholder: 'ui-sortable-placeholder',
 					cursor: 'move',
-					handle: '.ewic-shorter',
+					handle: '.ewic-shorters',
 
 					});
 					
@@ -156,11 +156,11 @@ function ewic_create_meta_box( $post, $meta_box )
 						echo '
 						<li class="ewicthumbhandler" data-attachment_id="'.$img_id['images'].'">
 							<input type="hidden" name="ewic_meta[ewic_meta_select_images]['.$img_id['images'].'][images]" value="'.$img_id['images'].'" />
-							<span class="ewic-shorter"></span>
+							<div class="ewic-shorters">
 							<img src="'.$img_url.'" />
 							<span class="ewic-del-images"></span>
 							<label for="title-for-'.$img_id['images'].'">Title </label>
-							<input id="title-for-'.$img_id['images'].'" class="images-title" type="text" name="ewic_meta[ewic_meta_select_images]['.$img_id['images'].'][ttl]" value="'.$img_id['ttl'].'"/>
+							<input id="title-for-'.$img_id['images'].'" class="images-title" type="text" name="ewic_meta[ewic_meta_select_images]['.$img_id['images'].'][ttl]" value="'.$img_id['ttl'].'"/></div>
 						</li>';			
 						}
 				} else {echo '<p class="noimgs">No images selected... </p>';}

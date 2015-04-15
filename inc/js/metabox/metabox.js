@@ -128,7 +128,17 @@ jQuery(document).ready(function($){
                 element: '#publish',
                 intro: "When you are done, you can save the slider and put the slider into your post/page using Shortcode Manager or in widget area by dragging the widget named <b>Easy Slider Widget</b> from Appearance > Widget.",
                 position: 'bottom'
-              }
+              },
+             {
+                element: '#ewicbuydiv',
+                intro: "Upgrade to <b>Pro Version</b> which gives you a tons of awesome features!",
+                position: 'left'
+              },			  
+              {
+                element: '#ewicdemodiv',
+                intro: "Or you can see the <b>DEMO</b> first before you buy.",
+                position: 'left'
+              },		
             ]
           });
 		  
