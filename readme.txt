@@ -12,13 +12,13 @@ Create image slider for post, page, widget or sidebar in minutes.
 
 == Description ==
 
-Best **images slider** plugin to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
+Best **image slider** plugin to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
 
 With the built-in transition effects, you can easily create stunning sliders without writing any JavaScript or CSS codes.
 
 With a self-explanatory user interface, the plugin is extremely easy to use. With the provided shortcode generator, it's also easy to insert the **slider** to your post, page and widget.
 
-The slider is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
+The **slider image** is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
 
 ### Live Demo
 > 
@@ -74,11 +74,11 @@ This slider plugin fully responsive and will adapt to any devices, Firefox, Chro
 > * Tons of options
 > * Open image on Lightbox
 
-= Scalable Layout Engine ( Pro ) =
+= Best Slider Control Panel ( Pro ) =
 The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove slider navigator, slider arrow navigator and slider thumbnail navigator, or any decoration interface.
 
 = 360+ Slideshow Effects/Transitions ( Pro ) =
-Easy Image Slider Pro comes with 360+ awesome slideshow effects, and the most scalable slideshow transition build tool enables you build infinite slideshow transitions.
+Easy Image Slider Pro comes with 360+ awesome **slideshow** effects, and the most scalable slideshow transition build tool enables you build infinite slideshow transitions.
 
 = 390+ Title Effects/Transitions ( Pro ) =
 Tons of options enable you build your own title transition. You can start with fade, move, clip, wave, jump, rotate or zoom transitions, and so many more that you can imagine. And you can combine 2 or more transitions as well.
