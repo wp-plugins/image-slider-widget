@@ -84,11 +84,11 @@ function ewic_generate_slider( $id, $iswidget ) {
 			autoHover: true,
 			mode: "'.get_post_meta( $id, 'ewic_meta_slide_style', true ).'",
 			onSlideBefore:  function() {
-				jQuery(".bxslider'.$iswidget.'-'.$id.' .bx-caption").slideUp();
+				jQuery(".bxslider'.$iswidget.'-'.$id.' .ewic-caption").slideUp();
             },
 			onSlideAfter: function() {
 				jQuery("."+jQuery(".bxslider'.$iswidget.'-'.$id.'").parent().next().find(".bx-controls-auto").find("a").attr("class")).trigger("click");
-				jQuery(".bxslider'.$iswidget.'-'.$id.' .bx-caption").slideDown();
+				jQuery(".bxslider'.$iswidget.'-'.$id.' .ewic-caption").slideDown();
             }
 			
 			});

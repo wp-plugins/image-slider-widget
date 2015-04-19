@@ -186,7 +186,7 @@
 
 /* IMAGE CAPTIONS */
 
-.bx-wrapper .bx-caption {
+.bx-wrapper .ewic-caption {
 	position: absolute;
 	left: 0;
 	background: #666\9;
@@ -197,7 +197,7 @@
 	text-align: center !important;
 }
 
-.bx-wrapper .bx-caption span {
+.bx-wrapper .ewic-caption span {
 	color: #fff;
 	font-family: Arial;
 	display: block;
