@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: image slider, admin, slider, responsive slider, image, images, plugins, photo, seo, widget, photo slider
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.1.1
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,6 +153,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.3 =
+* Added : Important Link
+* Fixed : Many other PHP and CSS clean and optimization
+
 = 1.1.1 =
 * Added : Slider Size Control ( width & height ) option
 * Added : Slider preloader effect to make slider load fancy & smoothly
@@ -189,4 +193,4 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Upgrade Notice ==
 
 = 1.1.1 =
-IMPORTANT! NEW Slider Size Option, PLEASE UPDATE NOW!
+IMPORTANT! Added IMPORTANT LINK, PLEASE UPDATE NOW!

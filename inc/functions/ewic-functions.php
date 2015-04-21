@@ -192,6 +192,78 @@ function ewic_share() {
 
     <?php
 	}
+	
+	
+	
+/*-------------------------------------------------------------------------------*/
+/*  Update Notify
+/*-------------------------------------------------------------------------------*/
+function easywic_update_notify () {
+	
+    global $post;
+		if ( 'easyimageslider' === $post->post_type && is_admin() ) {
+	
+    ?>
+    <div class="error ewic-setupdate">
+        <p><?php _e( 'We recommend you to enable plugin Auto Update so you\'ll get the latest features and other important updates from <strong>'.EWIC_NAME.'</strong>.<br />Click <a href="#"><strong><span id="ewicdoautoupdate">here</span></strong></a> to enable Auto Update.', 'easywic' ); ?></p>
+    </div>
+    
+<script type="text/javascript">
+	/*<![CDATA[*/
+	/* Easy Media Gallery */
+jQuery(document).ready(function(){
+	jQuery('#ewicdoautoupdate').click(function(){
+		var cmd = 'active';
+		ewic_enable_auto_update(cmd);
+	});
+
+function ewic_enable_auto_update(act) {
+	var data = {
+		action: 'ewic_enable_auto_update',
+		security: '<?php echo wp_create_nonce( "ewic-update-nonce"); ?>',
+		cmd: act,
+		};
+		
+		jQuery.post(ajaxurl, data, function(response) {
+			if (response == 1) {
+				alert('Great! Auto Update successfully activated.');
+				jQuery('.ewic-setupdate').fadeOut('3000');
+				}
+				else {
+				alert('Ajax request failed, please refresh your browser window.');
+				}
+				
+			});
+	}
+	
+});
+	
+/*]]>*/</script>
+    
+    <?php
+	
+	}
+}
+
+function ewic_enable_auto_update() {
+	
+	check_ajax_referer( 'ewic-update-nonce', 'security' );
+	
+	if ( !isset( $_POST['cmd'] ) ) {
+		echo '0';
+		wp_die();
+		}
+		
+		else {
+			if ( $_POST['cmd'] == 'active' ){
+				update_option( "ewic-settings-automatic_update", $_POST['cmd'] );
+				echo '1';				
+				wp_die();
+				}
+	}
+}
+add_action( 'wp_ajax_ewic_enable_auto_update', 'ewic_enable_auto_update' );
+
 
 
 ?>
