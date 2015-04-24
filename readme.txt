@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: image slider, admin, slider, responsive slider, image, images, plugins, photo, seo, widget, photo slider
 Requires at least: 3.5
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
