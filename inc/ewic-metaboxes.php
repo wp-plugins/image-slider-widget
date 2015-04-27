@@ -297,8 +297,8 @@ function ewic_metabox_work(){
 // Image Picker
 	    $meta_box = array(
 		'id' => 'ewic_meta_images',
-		'title' =>  __( 'Select/Upload Images<span class="ewic-introjs"><span class="ewic-intro-help"></span><a href="javascript:void(0);" onclick="startIntro();">Click Here to learn How to Create Slider</a></span>', 'easywic' ),
-		'description' => __( 'Click <strong><i>Add Images</i></strong> button below and select an images that you want to show in your widget area. Press <strong>Ctrl + click on each images</strong> to select multiple images.', 'easywic' ),
+		'title' =>  __( 'Select/Upload Images', 'easywic' ),
+		'description' => __( '<span class="ewic-introjs"><span class="ewic-intro-help"></span><a href="javascript:void(0);" onclick="startIntro();">Click Here to learn How to Create Slider</a></span><br /><br />Click <strong><i>Add Images</i></strong> button below and select an images that you want to show in your widget area.<br />Press <strong>Ctrl + click on each images</strong> to select multiple images.', 'easywic' ),
 		'page' => 'easyimageslider',
 		'context' => 'normal',
 		'priority' => 'default',
