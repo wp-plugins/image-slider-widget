@@ -49,12 +49,12 @@ if ( !defined( 'EWIC_PRO' ) ) {
 
 // Pro+
 if ( !defined( 'EWIC_PROPLUS' ) ) {
-	define( 'EWIC_PROPLUS', '33' );
+	define( 'EWIC_PROPLUS', '27' );
 }
 
 // Pro++ Price
 if ( !defined( 'EWIC_PROPLUSPLUS' ) ) {
-	define( 'EWIC_PROPLUSPLUS', '60' );
+	define( 'EWIC_PROPLUSPLUS', '35' );
 }
 
 // Dev Price
