@@ -11,10 +11,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Create slider for your post, page or sidebar just in minutes.
 
 == Description ==
+= Responsive Slider Plugin =
+Best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "Slider Plugin")** plugin to your post/page/widget or sidebar area. Allows you to customize it to looking exactly what you want.
 
-Best **image slider** plugin to your post/page/widget/sidebar area. Allows you to customize it to looking exactly what you want.
-
-With the built-in transition effects, you can easily create stunning sliders without writing any JavaScript or CSS codes.
+With the built-in transition effects, you can easily create stunning [image slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "Image Slider Plugin") without writing any JavaScript or CSS codes.
 
 With a self-explanatory user interface, the plugin is extremely easy to use. With the provided shortcode generator, it's also easy to insert the **slider** to your post, page and widget.
 
@@ -22,11 +22,11 @@ The **slider image** is 100% **responsive** and compatible with mobile, tablets,
 
 ### Live Demo
 > 
-> * [DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/)
-> * [DEMO PRO VERSION : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/)
-> * [DEMO PRO VERSION : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/)
-> * [DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/)
-> * [DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/)
+> * [SLIDER DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/ "Slider thumbnails on bottom demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/ "Slider thumbnails on bottom demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/ "Slider with bullet navigation demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/ "Slider thumbnails on left demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/ "Slider thumbnails on right demo")
 
 ### Lite Features
 > 
@@ -49,7 +49,7 @@ You can also select and insert multiple images into your slider only by click **
 We already provide awesome slider image lightbox option in slider settings so you can set the slider to opened into the lightbox when it's clicked. What more?
 
 = Responsive Slider =
-If you are interested in adding top class **image slider** on your website then here you will find the right slider plugin which will assist you to do that properly. Easy Image Slider will speed up the daily web design or development work.
+If you are interested in adding top class **slider** on your website then here you will find the right slider plugin which will assist you to do that properly. Easy Image Slider will speed up the daily web design or development work.
 This slider plugin fully responsive and will adapt to any devices, Firefox, Chrome, Safari, iOS, Android, IE7+
 
 ### Plugin in Action (lite)
@@ -95,12 +95,12 @@ When touch the Slider, it will freeze and then move to the direction that finger
 ### Recommended Plugins
 The following are other recommended plugins by the author:
 
-* [Best Gallery Plugin](https://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
-* [Best Contact Form Plugin](https://wordpress.org/plugins/contact-form-lite/) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
-* [Best Popup Plugin](https://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+* [Best Gallery Plugin](https://wordpress.org/plugins/easy-media-gallery/ "Best Gallery Plugin") - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
+* [Best Contact Form Plugin](https://wordpress.org/plugins/contact-form-lite/ "Best Contact Form Plugin") - The Best Contact Form Plugin to create awesome Contact Form in minutes.
+* [Best Popup Plugin](https://wordpress.org/plugins/easy-notify-lite/ "Best Email Subscribe and Optin Plugin") -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 
 > #### **NOTE**
-> If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+> If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" title="Translating WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" title="GhozyLab" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" title="Download Poedit" target="_blank">Poedit</a>.
 
 = Technical Support =
 
