@@ -46,7 +46,7 @@ You can create image slider just in minutes, with awesome features you can easil
 You can also select and insert multiple images into your slider only by click **CTRL + Click** on each images that you choose. Yep, it's 100% Slider that very easy to use.
 
 = Image Lightbox =
-We already provide awesome slider image lightbox option in slider settings so you can set the slider to opened into the lightbox when it's clicked. What more?
+We already provide slider image lightbox option in slider settings so you can set the slider to opened into the lightbox when it's clicked. What more?
 
 = Responsive Slider =
 If you are interested in adding top class **slider** on your website then here you will find the right slider plugin which will assist you to do that properly. Easy Image Slider will speed up the daily web design or development work.
