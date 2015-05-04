@@ -63,7 +63,7 @@ color: #FFF !important;
 		
         </style>
     <h2>GhozyLab Free Plugins</h2>    
-    
+		<p><?php _e( 'These plugins available on Pro version. You can see <a href="'.admin_url( 'edit.php?post_type=easyimageslider&page=ewic_featured_plugins' ).'">here</a>', 'easywic' ); ?></p>
 <div style="margin-top:30px;" class="wp-list-table widefat plugin-install">
 	<div id="the-list">
     
