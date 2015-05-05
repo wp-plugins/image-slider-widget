@@ -194,6 +194,12 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 = 1.0.0 =
 * This is the launch version. No changes yet.
 
+==Easy Image Slider step by step guide==
+
+### How to Create Image Slider
+
+You can follow this video : [Create Image Slider](https://www.youtube.com/watch?v=-W8u_t05K2Y "Create Image Slider")
+
 == Upgrade Notice ==
 
 = 1.1.1 =
