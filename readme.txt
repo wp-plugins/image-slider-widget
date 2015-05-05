@@ -148,8 +148,12 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Screenshots ==
 
-1. Easy Image Slider Widget Frontend
-
+1. Slider on Lite Version
+2. Slider on Pro Version ( with Thumbnails on Bottom )
+3. Slider on Pro Version ( with Bullet Navigation on Bottom )
+4. Slider on Pro Version ( with Thumbnails on Right )
+5. Slider on Pro Version ( with Thumbnails on Left )
+6. Slider on Lightbox Mode
 
 == Changelog ==
 
