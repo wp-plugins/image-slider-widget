@@ -196,9 +196,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 ==Easy Image Slider step by step guide==
 
-### How to Create Image Slider
+There are no complicated instructions for using Easy Image Slider plugin because this slider plugin designed to make all easy. Please watch the following video and we believe that you will easily to understand it just in minutes :
 
-You can follow this video : [Create Image Slider](https://www.youtube.com/watch?v=-W8u_t05K2Y "Create Image Slider")
+[How to Create Image Slider](https://www.youtube.com/watch?v=-W8u_t05K2Y "Create Image Slider")
 
 == Upgrade Notice ==
 
