@@ -8,30 +8,30 @@ Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create slider for your post, page or sidebar just in minutes.
+Create slider or image slider for posts, page or even in your sidebar just in minutes.
 
 == Description ==
 = Responsive Slider Plugin =
-Best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "Slider Plugin")** plugin to your post/page/widget or sidebar area. Allows you to customize it to looking exactly what you want.
+Best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "slider plugin")** plugin to your post/page/widget or sidebar area. Allows you to customize it to looking exactly what you want.
 
-With the built-in transition effects, you can easily create stunning [image slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "Image Slider Plugin") without writing any JavaScript or CSS codes.
+With the built-in transition effects, you can easily create stunning [image slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "image slider plugin") without writing any JavaScript or CSS codes.
 
 With a self-explanatory user interface, the plugin is extremely easy to use. With the provided shortcode generator, it's also easy to insert the **slider** to your post, page and widget.
 
-The **slider image** is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
+The [slider image](https://wordpress.org/plugins/image-slider-widget/ "slider image") is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
 
 ### Live Demo
 > 
-> * [SLIDER DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/ "Slider thumbnails on bottom demo")
-> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/ "Slider thumbnails on bottom demo")
-> * [SLIDER DEMO PRO VERSION : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/ "Slider with bullet navigation demo")
-> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/ "Slider thumbnails on left demo")
-> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/ "Slider thumbnails on right demo")
+> * [SLIDER DEMO : LITE VERSION](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/ "slider thumbnails on bottom demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails at The Bottom](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/ "slider thumbnails on bottom demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Bullet Navigation](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/ "slider with bullet navigation demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails on Left](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/ "slider thumbnails on left demo")
+> * [SLIDER DEMO PRO VERSION : Image Slider with Thumbnails on Right](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/ "slider thumbnails on right demo")
 
 ### Lite Features
 > 
 > * Fully responsive - will adapt to any device
-> * Slider on Post / Page / Widget
+> * Slider on Posts / Page / Widget
 > * Unlimited Image Slider
 > * ON/OFF Auto Slider
 > * Slider Delay
@@ -46,7 +46,7 @@ You can create image slider just in minutes, with awesome features you can easil
 You can also select and insert multiple images into your slider only by click **CTRL + Click** on each images that you choose. Yep, it's 100% Slider that very easy to use.
 
 = Image Lightbox =
-We already provide slider image lightbox option in slider settings so you can set the slider to opened into the lightbox when it's clicked. What more?
+We already provide **slider image lightbox** option in slider settings so you can set the slider to opened into the lightbox when it's clicked. What more?
 
 = Responsive Slider =
 If you are interested in adding top class **slider** on your website then here you will find the right slider plugin which will assist you to do that properly. Easy Image Slider will speed up the daily web design or development work.
@@ -68,11 +68,11 @@ This slider plugin fully responsive and will adapt to any devices, Firefox, Chro
 > * +25 Slider Effect ( Easing )
 > * Unlimited colors and layout
 > * Multiple Slideshows Supported
-> * Social Share Buttons
 > * Automatic Image Cropping
-> * Custom CSS and JS
 > * Tons of options
 > * Open image on Lightbox
+> * Custom CSS & JS
+> * Social Share Buttons ( facebook, Twitter, Google+, Linkedin, Stumbleupon, Pinterest, Email )
 
 = Best Slider Control Panel ( Pro ) =
 The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove slider navigator, slider arrow navigator and slider thumbnail navigator, or any decoration interface.
