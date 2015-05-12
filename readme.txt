@@ -42,7 +42,7 @@ The [slider image](https://wordpress.org/plugins/image-slider-widget/ "slider im
 > * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 
 = Slider / Image Slider =
-You can create image slider just in minutes, with awesome features you can easily add image into slider, drag & drop an images to re-order to fit your needs. **No need to Re-Upload** all your images because the plugin will use an images from your media library.
+You can create **image slider** just in minutes, with awesome features you can easily add image into slider, drag & drop an images to re-order to fit your needs. **No need to Re-Upload** all your images because the plugin will use an images from your media library.
 You can also select and insert multiple images into your slider only by click **CTRL + Click** on each images that you choose. Yep, it's 100% Slider that very easy to use.
 
 = Image Lightbox =
