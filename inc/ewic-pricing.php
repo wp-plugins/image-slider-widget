@@ -37,8 +37,8 @@ function ewic_pricing_table() {
         <li class="row_style_4"><span>Slider on Post/Page</span><a target="_blank" href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
         <li class="row_style_2"><span>360+ Slideshow Effects/Transitions</span></li>
         <li class="row_style_4"><span>390+ Title Effects/Transitions</span></li>
-        <li class="row_style_2"><span>Custom CSS</span></li>
-        <li class="row_style_4"><span>Custom JS</span></li>
+        <li class="row_style_2"><span>Custom CSS & Custom JS</span></li>
+        <li class="row_style_4"><span>Open Slider on Lightbox</span></li>
         <li class="row_style_2"><span>Custom Transitions for Slider and Title</span></li>
         <li class="row_style_4"><span>Unlimited colors and layout</span></li>
         <li class="row_style_4"><span>Powerful Control Panel</span><a target="_blank" href="http://demo.ghozylab.com/content/ewicpro.html" style="text-decoration:underline !important;"> Click for Sample</a></li>
@@ -64,7 +64,7 @@ function ewic_pricing_table() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>  
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
