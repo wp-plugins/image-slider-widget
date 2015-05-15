@@ -8,7 +8,7 @@ Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easy Image Slider - Create slider or image slider for posts, page or even in your sidebar just in minutes.
+Slider - Create slider or image slider for posts, page or even in your sidebar just in minutes.
 
 == Description ==
 = Responsive Slider Plugin =
