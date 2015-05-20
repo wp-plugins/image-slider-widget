@@ -5,7 +5,7 @@
 	Version: 3.1.6
 ------------------------------------------------------------------------- */
 (function($) {
-	$.ewcPhoto = {version: '3.1.6ssss'};
+	$.ewcPhoto = {version: '3.1.6'};
 	
 	$.fn.ewcPhoto = function(ewc_settings) {
 		ewc_settings = jQuery.extend({
