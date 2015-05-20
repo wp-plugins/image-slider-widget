@@ -1,10 +1,10 @@
  === Easy Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: 3D slider, best slider plugin, carousel, carousel slider, coin slider, coinslider, content slider, content slideshow, custom video slider, featured-content-slider, flex slider, free video slider, free video slideshow, Horizontal slider, HTML5 slider, image, Image Rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, Photo Slider, picture slider, plugin, Post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider, slider plugin, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, widget slideshow, widgets, wordpress seo, wordpress slider, wordpress slideshow, wp, wp slider
+Tags: image, image slider, image slideshow, images, jquery slider, responsive slider, seo, widget, widget slider, wordpress slider, wordpress slideshow, wp
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.1.5
+Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.7 =
+* Added : Fixed : New Patch for PrettyPhoto Security bugs reported by perucrack.net
+
 = 1.1.5 =
 * Added : Update Feature List
 * Fixed : Many other PHP and CSS clean and optimization
@@ -206,5 +209,5 @@ There are no complicated instructions for using Easy Image Slider plugin because
 
 == Upgrade Notice ==
 
-= 1.1.5 =
-IMPORTANT! CHANGE FEATURE LIST, PLEASE UPDATE NOW!
+= 1.1.7 =
+IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!

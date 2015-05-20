@@ -2,10 +2,10 @@
 	Class: prettyPhoto
 	Use: Lightbox clone for jQuery
 	Author: Stephane Caron (http://www.no-margin-for-errors.com)
-	Version: 3.1.5
+	Version: 3.1.6
 ------------------------------------------------------------------------- */
 (function($) {
-	$.ewcPhoto = {version: '3.1.5'};
+	$.ewcPhoto = {version: '3.1.6ssss'};
 	
 	$.fn.ewcPhoto = function(ewc_settings) {
 		ewc_settings = jQuery.extend({
@@ -885,7 +885,8 @@
 	function getHashtag(){
 		var url = location.href;
 		hashtag = (url.indexOf('#prettyPhoto') !== -1) ? decodeURI(url.substring(url.indexOf('#prettyPhoto')+1,url.length)) : false;
-
+		
+		if (hashtag){ hashtag = hashtag.replace(/<|>/g,''); }
 		return hashtag;
 	};
 	
