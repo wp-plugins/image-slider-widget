@@ -12,7 +12,7 @@ Slider - Create slider or image slider for posts, page or even in your sidebar j
 
 == Description ==
 = Responsive Slider Plugin =
-Best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "slider plugin")** plugin to your post/page/widget or sidebar area. Allows you to customize it to looking exactly what you want.
+Best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "slider plugin")** plugin to your post/page/widget or sidebar area. Allows you to customize the **slider** to looking exactly what you want.
 
 With the built-in transition effects, you can easily create stunning [image slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "image slider plugin") without writing any JavaScript or CSS codes.
 
@@ -53,7 +53,7 @@ If you are interested in adding top class **slider** on your website then here y
 This slider plugin fully responsive and will adapt to any devices, Firefox, Chrome, Safari, iOS, Android, IE7+
 
 ### Plugin in Action (lite)
-<p>https://www.youtube.com/watch?v=-W8u_t05K2Y</p>
+[youtube https://www.youtube.com/watch?v=-W8u_t05K2Y]
 
 ### PRO Features
 > 
@@ -205,7 +205,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 There are no complicated instructions for using Easy Image Slider plugin because this slider plugin designed to make all easy. Please watch the following video and we believe that you will easily to understand it just in minutes :
 
-[How to Create Image Slider](https://www.youtube.com/watch?v=-W8u_t05K2Y "Create Image Slider")
+[youtube https://www.youtube.com/watch?v=-W8u_t05K2Y]
 
 == Upgrade Notice ==
 
