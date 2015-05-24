@@ -115,7 +115,7 @@ function ewic_create_meta_box( $post, $meta_box )
 	foreach ( $meta_box['fields'] as $field ){
 		// Get current post meta data
 		$meta = get_post_meta( $post->ID, $field['id'], true );
-		if ( $field['isfull'] == 'yes' ) {
+		if ( isset( $field['isfull'] ) && $field['isfull'] == 'yes' ) {
 			$isfull = '';
 		} else {
 			$isfull = '<th><label for="'. $field['id'] .'"><strong>'. $field['name'] .'<br></strong><span>'. $field['desc'] .'</span></label></th>';	

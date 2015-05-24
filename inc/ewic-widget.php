@@ -10,13 +10,14 @@ class ewic_sc_widget extends WP_Widget {
     // Widget Content
     function widget($args, $instance) { 
         extract( $args );
-        $ewic_shortcode = strip_tags($instance['ewic_shortcode']);
-
+		if ( isset( $instance['ewic_shortcode'] ) ) {
+        	$ewic_shortcode = strip_tags($instance['ewic_shortcode']);
+			}
         ?>
             <div id="latest-box">
                 <span class="latest-text">
                 <?php
-				if ( $ewic_shortcode ) {
+				if ( isset( $ewic_shortcode ) ) {
 					echo do_shortcode( '[espro-slider id="'.$ewic_shortcode.'" iswidget="widget"]' );
 					}
 				?> 
@@ -35,7 +36,9 @@ class ewic_sc_widget extends WP_Widget {
     // If widget content needs a form
     function form($instance) {
         //widgetform in backend
-        $ewic_shortcode = strip_tags($instance['ewic_shortcode']);
+		if ( isset( $ewic_shortcode ) ) {
+        	$ewic_shortcode = strip_tags($instance['ewic_shortcode']);
+			}
         ?>
         <p><label for="<?php echo $this->get_field_id('ewic_shortcode'); ?>">Select your Slider name and hit save button.<br />
     <select id="<?php echo $this->get_field_id('ewic_shortcode'); ?>" name="<?php echo $this->get_field_name('ewic_shortcode'); ?>" >
