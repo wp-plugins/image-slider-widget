@@ -140,8 +140,8 @@ div.facebook .ewc_bottom .ewc_left{background:url(../images/prettyPhoto/facebook
 div.facebook .ewc_bottom .ewc_middle{background:url(../images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x}
 div.facebook .ewc_bottom .ewc_right{background:url(../images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat}
 div.ewc_pic_holder a:focus{outline:none}
-div.ewc_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:9999}
-div.ewc_pic_holder{display:none;position:absolute;width:100px;z-index:10000}
+div.ewc_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:99999}
+div.ewc_pic_holder{display:none;position:absolute;width:100px;z-index:999999}
 .ewc_content{height:40px;min-width:40px}
 * html .ewc_content{width:40px}
 .ewc_content_container{position:relative;text-align:left;width:100%}
