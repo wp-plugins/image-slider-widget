@@ -201,7 +201,7 @@ function ewic_share() {
 function easywic_update_notify () {
 	
     global $post;
-		if ( 'easyimageslider' === $post->post_type && is_admin() ) {
+		if ( !empty( $post ) && 'easyimageslider' === $post->post_type && is_admin() ) {
 	
     ?>
     <div class="error ewic-setupdate">

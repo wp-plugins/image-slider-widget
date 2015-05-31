@@ -43,8 +43,11 @@ function ewic_stt_page() {
 
 <script type="text/javascript">
 /*<![CDATA[*/
-
+	var ewicloader;
 	function ewic_ajax_autoupdt(cmd) {
+		
+		window.clearTimeout(ewicloader);
+		
 		jQuery('.setpre').show().css('background-image','url(<?php echo plugins_url('images/89.gif' , __FILE__ ); ?>)');
 		var data = {
 			action: 'ewic_ajax_autoupdt',
@@ -53,9 +56,10 @@ function ewic_stt_page() {
 			};
 			
 			jQuery.post(ajaxurl, data, function(response) {
+				
 				if (response == 1) {
 					jQuery('.setpre').css('background-image','url(<?php echo plugins_url('images/valid.png' , __FILE__ ); ?>)');
-					setTimeout(function() {
+					ewicloader = window.setTimeout(function() {
 					jQuery('.setpre').fadeOut();
 					}, 3000);
 					}						
@@ -63,7 +67,11 @@ function ewic_stt_page() {
 						jQuery('.setpre').hide();
 						alert('Ajax request failed, please refresh your browser window.');
 						}
+						
+						
+						
 					});
+	
 	}
 /*]]>*/
 </script> 
