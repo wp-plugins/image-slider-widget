@@ -154,7 +154,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 4. Slider on Pro Version ( with Thumbnails on Right )
 5. Slider on Pro Version ( with Thumbnails on Left )
 6. Slider on Lightbox Mode
-6. Pro Version Slider Options
+7. Pro Version Slider Options
 
 == Changelog ==
 
