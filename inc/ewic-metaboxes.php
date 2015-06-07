@@ -298,7 +298,10 @@ function ewic_metabox_work(){
 	    $meta_box = array(
 		'id' => 'ewic_meta_images',
 		'title' =>  __( 'Select/Upload Images', 'easywic' ),
-		'description' => __( '<span class="ewic-introjs"><span class="ewic-intro-help"></span><a href="javascript:void(0);" onclick="startIntro();">Click Here to learn How to Create Slider</a></span><br /><br />Click <strong><i>Add Images</i></strong> button below and select an images that you want to show in your widget area.<br />Press <strong>Ctrl + click on each images</strong> to select multiple images.', 'easywic' ),
+		'description' => __( '<span class="ewic-introjs"><span class="ewic-intro-help"></span><a href="javascript:void(0);" onclick="startIntro();">Click Here to learn How to Create Slider</a></span><br /><br /><div class="ewicinfobox">Upgrade to PRO VERSION and you will get awesome slider options like <a href="http://demo.ghozylab.com/content/ewicpro.html?utm_source=procp&utm_medium=settingspage&utm_campaign=gotodemoprocp" target="_blank">this</a>. You will able to create elegant slider like the following example:<ul><li><a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/" target="_blank">Image Slider with Thumbnails at The Bottom
+</a></li><li><a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/" target="_blank">Image Slider with Bullet Navigation
+</a></li><li><a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/" target="_blank">Image Slider with Thumbnails on Left
+</a></li><li><a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-right/" target="_blank">Image Slider with Thumbnails on Right</a></li></ul></div><br /><br />Click <strong><i>Add Images</i></strong> button below and select an images that you want to show in your widget area.<br />Press <strong>Ctrl + click on each images</strong> to select multiple images.', 'easywic' ),
 		'page' => 'easyimageslider',
 		'context' => 'normal',
 		'priority' => 'default',
