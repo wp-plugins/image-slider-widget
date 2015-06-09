@@ -4,7 +4,7 @@ Plugin Name: Easy Image Slider (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.10
+Version: 1.1.11
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -35,7 +35,7 @@ add_action( 'admin_init', 'ewic_wordpress_version' );
 /*   MAIN DEFINES
 /*-------------------------------------------------------------------------------*/
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.10' );
+	define( 'EWIC_VERSION', '1.1.11' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -161,6 +161,83 @@ add_action( 'admin_menu', 'ewic_rename_submenu' );
 /*   Executing shortcode inside sidebar/widget
 /*-------------------------------------------------------------------------------*/
 add_filter( 'widget_text', 'do_shortcode', 11 );
+
+
+/*-------------------------------------------------------------------------------*/
+/*   Hide & Disabled View, Quick Edit and Preview Button
+/*-------------------------------------------------------------------------------*/
+function ewic_remove_row_actions( $actions ) {
+	global $post;
+    if( $post->post_type == 'easyimageslider' ) {
+		unset( $actions['view'] );
+		unset( $actions['inline hide-if-no-js'] );
+	}
+    return $actions;
+}
+
+if ( is_admin() ) {
+	add_filter( 'post_row_actions','ewic_remove_row_actions', 10, 2 );
+}
+
+/*--------------------------------------------------------------------------------*/
+/*  Add Custom Columns for Slider Review Page @since 1.1.11
+/*--------------------------------------------------------------------------------*/
+add_filter( 'manage_edit-easyimageslider_columns', 'easyimageslider_edit_columns' );
+function easyimageslider_edit_columns( $easyimageslider_columns ){  
+	$easyimageslider_columns = array(  
+		'cb' => '<input type="checkbox" />',  
+		'title' => _x( 'Title', 'column name', 'easywic' ),
+		'ewic_imgcnt' => __( 'Total Image', 'easywic'),
+		'ewic_sc' => __( 'Shortcode', 'easywic'),
+		'ewic_id' => __( 'ID', 'easywic'),
+		'ewic_preview' => __( 'Preview', 'easywic')		
+			
+	);  
+	unset( $columns['Date'] );
+	return $easyimageslider_columns;  
+}
+
+function easyimageslider_columns_edit_columns_list( $easyimageslider_columns, $post_id ){
+	
+if ( is_array( get_post_meta( $post_id, 'ewic_meta_select_images', true ) ) ) {
+	$ittl = array_filter( get_post_meta( $post_id, 'ewic_meta_select_images', true ) );
+	$ittl = count( $ittl );
+	}
+	else {
+		$ittl = '0';
+		}
+
+	switch ( $easyimageslider_columns ) {
+			
+	    case 'ewic_imgcnt':
+		
+		echo $ittl.' image(s)';
+
+	        break;
+		
+	    case 'ewic_id':
+		
+		echo $post_id;
+
+	        break;
+		
+	    case 'ewic_sc':
+		
+		echo '<span class="ewic-scode-block">[espro-slider id='.$post_id.']</span>';
+
+	        break;
+			
+	    case 'ewic_preview':
+		
+		echo '<a class="button ewicprev" onClick="alert(\'This feature only available in Pro Version.\')">&nbsp;Preview&nbsp;</a>';
+	        break;
+
+		default:
+			break;
+	}  
+}  
+
+add_filter( 'manage_posts_custom_column',  'easyimageslider_columns_edit_columns_list', 10, 2 );  
 
 
 /*-------------------------------------------------------------------------------*/
