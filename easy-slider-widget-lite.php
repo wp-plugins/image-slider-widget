@@ -4,7 +4,7 @@ Plugin Name: Easy Image Slider (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.11
+Version: 1.1.13
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -35,7 +35,7 @@ add_action( 'admin_init', 'ewic_wordpress_version' );
 /*   MAIN DEFINES
 /*-------------------------------------------------------------------------------*/
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.11' );
+	define( 'EWIC_VERSION', '1.1.13' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -111,7 +111,7 @@ function ewic_post_type() {
 		'name' 				=> _x( 'Easy Slider', 'post type general name' ),
 		'singular_name'		=> _x( 'Easy Slider', 'post type singular name' ),
 		'add_new' 			=> __( 'Add New Slider', 'easywic' ),
-		'add_new_item' 		=> __( 'Easy Slider Item', 'easywic' ),
+		'add_new_item' 		=> __( 'Slider Item', 'easywic' ),
 		'edit_item' 		=> __( 'Edit Slider', 'easywic' ),
 		'new_item' 			=> __( 'New Slider', 'easywic' ),
 		'view_item' 		=> __( 'View Slider', 'easywic' ),
@@ -152,7 +152,7 @@ add_action( 'init', 'ewic_post_type' );
 /*-------------------------------------------------------------------------------*/
 function ewic_rename_submenu() {  
     global $submenu;     
-	$submenu['edit.php?post_type=easyimageslider'][5][0] = __( 'Overview', 'easywic' );  
+	$submenu['edit.php?post_type=easyimageslider'][5][0] = __( 'Sliders', 'easywic' );  
 }  
 add_action( 'admin_menu', 'ewic_rename_submenu' );  
 
