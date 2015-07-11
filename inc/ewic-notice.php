@@ -13,7 +13,7 @@ if( get_option("ewic-settings-automatic_update") != 'active' ) {
 /*-------------------------------------------------------------------------------*/
 /*   Affiliate Notice @since 1.1.7
 /*-------------------------------------------------------------------------------*/
-add_action('admin_notices', 'ewic_aff_admin_notice');
+//add_action('admin_notices', 'ewic_aff_admin_notice');
 
 function ewic_aff_admin_notice() {
     global $current_user, $post;
@@ -45,7 +45,7 @@ function ewic_nag_ignore() {
 /*-------------------------------------------------------------------------------*/
 /*   Rating Notice @since 1.1.9
 /*-------------------------------------------------------------------------------*/
-add_action('admin_notices', 'ewic_rating_admin_notice');
+//add_action('admin_notices', 'ewic_rating_admin_notice');
 
 function ewic_rating_admin_notice() {
 		

@@ -2,11 +2,6 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-function ewic_opt_init() {
-    $ewic_featured_page = add_submenu_page('edit.php?post_type=easyimageslider', 'Global Settings', __('Global Settings', 'easywic'), 'edit_posts', 'ewic_settings_page', 'ewic_stt_page');
-}
-add_action( 'admin_menu', 'ewic_opt_init' );
-
 
 function ewic_stt_page() {
 	
@@ -48,7 +43,7 @@ function ewic_stt_page() {
 		
 		window.clearTimeout(ewicloader);
 		
-		jQuery('.setpre').show().css('background-image','url(<?php echo plugins_url('images/89.gif' , __FILE__ ); ?>)');
+		jQuery('.setpre').show().css('background-image','url(<?php echo EWIC_URL . '/inc/images/89.gif'; ?>)');
 		var data = {
 			action: 'ewic_ajax_autoupdt',
 			security: '<?php echo wp_create_nonce( "easywic-lite-nonce"); ?>',				
@@ -58,7 +53,7 @@ function ewic_stt_page() {
 			jQuery.post(ajaxurl, data, function(response) {
 				
 				if (response == 1) {
-					jQuery('.setpre').css('background-image','url(<?php echo plugins_url('images/valid.png' , __FILE__ ); ?>)');
+					jQuery('.setpre').css('background-image','url(<?php echo EWIC_URL . '/inc/images/valid.png'; ?>)');
 					ewicloader = window.setTimeout(function() {
 					jQuery('.setpre').fadeOut();
 					}, 3000);

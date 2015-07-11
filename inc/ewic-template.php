@@ -55,14 +55,22 @@ function ewic_generate_slider( $id, $iswidget ) {
 					}
 					
 			}
-	echo '</ul><br>';		
+	echo '</ul>';	
+	
+    if ( ewic_get_aff_option( 'ewic_affiliate_info', 'ewic_aff_id', '' ) ) {
+		
+		echo '<span class="ewc-aff-link">Powered by <a href="https://secure.ghozylab.com/demo/?ref='.ewic_get_aff_option( 'ewic_affiliate_info', 'ewic_aff_id', '' ).'&goto=ewic" target="_blank">Easy Image Slider Plugin</a></span>';
+            
+           }
+		   
+	echo '<br>';
 			
 			
 	//Generate Slider Script				
 	echo '<script type="text/javascript">
 	jQuery(document).ready(function() {
 		jQuery("#preloader'.$iswidget.'-'.$id.'").fadeOut(2000, function () {
-		jQuery(".bxslider'.$iswidget.'-'.$id.'").fadeIn(3000);
+		jQuery(".bxslider'.$iswidget.'-'.$id.', .ewc-aff-link").fadeIn(3000);
 		jQuery(".bxslider'.$iswidget.'-'.$id.'").bxSlider({
 			slideWidth: '.$sw.',
 			slideMargin: 10,

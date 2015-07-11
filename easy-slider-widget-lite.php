@@ -4,7 +4,7 @@ Plugin Name: Easy Image Slider (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.13
+Version: 1.1.15
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -34,8 +34,12 @@ add_action( 'admin_init', 'ewic_wordpress_version' );
 /*-------------------------------------------------------------------------------*/
 /*   MAIN DEFINES
 /*-------------------------------------------------------------------------------*/
+
+define( 'EWIC_API_URLCURL', 'https://secure.ghozylab.com/' );
+define( 'EWIC_API_URL', 'http://secure.ghozylab.com/' );
+
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.13' );
+	define( 'EWIC_VERSION', '1.1.15' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -61,6 +65,16 @@ if ( !defined( 'EWIC_PROPLUSPLUS' ) ) {
 if ( !defined( 'EWIC_DEV' ) ) {
 	define( 'EWIC_DEV', '99' );
 }
+
+// plugin path
+if ( !defined( 'EWIC_PLUGIN_BASENAME' ) )
+    define( 'EWIC_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
+
+if ( !defined( 'EWIC_PLUGIN_NAME' ) )
+    define( 'EWIC_PLUGIN_NAME', trim( dirname( EWIC_PLUGIN_BASENAME ), '/') );
+
+if ( !defined( 'EWIC_PLUGIN_DIR' ) )
+    define( 'EWIC_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . EWIC_PLUGIN_NAME . '/' );
 
 // plugin url
 if ( ! defined( 'EWIC_URL' ) ) {
@@ -254,15 +268,20 @@ include_once( 'inc/ewic-shortcode.php' );
 /*   Featured Plugins Page
 /*-------------------------------------------------------------------------------*/
 if ( is_admin() ){
-	require_once( 'inc/ewic-freeplugins.php' );
-	require_once( 'inc/ewic-featured.php' );
-	include_once( 'inc/ewic-pricing.php' ); 
-	require_once( 'inc/ewic-settings.php' );
+	
+	require_once( 'inc/pages/ewic-freeplugins.php' );
+	require_once( 'inc/pages/ewic-featured.php' );
+	include_once( 'inc/pages/ewic-pricing.php' ); 
+	require_once( 'inc/pages/ewic-settings.php' );
+	require_once( 'inc/pages/ewic-addons.php' );
 	require_once( 'inc/ewic-notice.php' );
+	include_once( 'inc/pages/ewic-welcome.php' );
+	
 	}
 	
+	
 /*-------------------------------------------------------------------------------*/
-/*   Redirect to Pricing Table on Activate
+/*   Redirect to What's New Page
 /*-------------------------------------------------------------------------------*/	
 function ewic_plugin_activate() {
 
@@ -270,16 +289,6 @@ function ewic_plugin_activate() {
 
 }
 register_activation_hook( __FILE__, 'ewic_plugin_activate' );
-
-function ewic_load_plugin() {
-
-    if ( is_admin() && get_option( 'activatedewic' ) == 'ewic-activate' && !is_network_admin() ) {
-		delete_option( 'activatedewic' );
-		wp_redirect("edit.php?post_type=easyimageslider&page=ewic_free_plugins");
-		
-    	}
-}
-add_action( 'admin_init', 'ewic_load_plugin' );
 
 
 /*-------------------------------------------------------------------------------*/

@@ -3,13 +3,8 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 
-function ewic_pricing_init() {
-    $ewic_featured_init = add_submenu_page('edit.php?post_type=easyimageslider', 'Pricing & compare tables', __('UPGRADE to PRO', 'easywic'), 'edit_posts', 'ewiccomparison', 'ewic_pricing_table');
-}
-add_action( 'admin_menu', 'ewic_pricing_init' );
-
 function ewic_put_compare_style() {
-	if ( is_admin() && isset( $_GET['page'] ) && $_GET['page'] == 'ewiccomparison' ){
+	if ( is_admin() && isset( $_GET['page'] ) && $_GET['page'] == 'ewic-comparison' ){
 		wp_enqueue_style( 'ewic-pricing-css' );
 		}
 }

@@ -2,15 +2,9 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-function ewic_rec_init() {
-    $ewic_featured_page = add_submenu_page('edit.php?post_type=easyimageslider', 'Free Install Plugins', __('Free Install Plugins', 'easywic'), 'edit_posts', 'ewic_free_plugins', 'ewic_free_plugin_page');
-}
-add_action( 'admin_menu', 'ewic_rec_init' );
-
 
 function ewic_free_plugin_page() {
 	
-
 	include( ABSPATH . "wp-admin/includes/plugin-install.php" );
 	global $tabs, $tab, $paged, $type, $term;
 	$tabs = array();
@@ -89,8 +83,7 @@ color: #FFF !important;
 
 		
         </style>
-    <h2>GhozyLab Free Plugins</h2>    
-		<p><?php _e( 'These plugins available on Pro version. You can see <a href="'.admin_url( 'edit.php?post_type=easyimageslider&page=ewic_featured_plugins' ).'">here</a>', 'easywic' ); ?></p>
+
 <div style="margin-top:30px;" class="wp-list-table widefat plugin-install">
 	<div id="the-list">
     

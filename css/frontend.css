@@ -71,3 +71,22 @@
 	}
 	
 .sliderpreloader {width:100% !important; height:32px !important; background:url(../images/ajax-loader.gif) center center no-repeat !important; text-align:center;}
+
+.ewc-aff-link {
+	display:none;
+	margin-top:5px;
+	float:right;
+	width: auto;
+	color: #999;
+	font-size:12px !important;
+	font-style:italic;
+	margin-right:5px;
+	}
+.ewc-aff-link a {
+	text-decoration: none !important;
+	color: #0080FF !important;
+	}	
+	
+.ewc-aff-link a:hover {
+	text-decoration: underline !important;
+	}
