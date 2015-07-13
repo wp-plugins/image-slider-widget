@@ -537,23 +537,6 @@ function _ewicaffiliateFetchmode( $api_params ) {
 }
 
 
-function mg_existing_sel($media) {
-	if(is_array($media)) {
-		$new_array = array();
-		
-		foreach($media as $media_id) {
-			if( get_the_title($media_id)) {	
-				$new_array[] = $media_id;
-			}
-		}
-		
-		if(count($new_array) == 0) {return false;}
-		else {return $new_array;}
-	}
-	else {return false;}	
-}
-
-
 /*-------------------------------------------------------------------------------*/
 /* Timthumb Check @since 1.1.17
 /*-------------------------------------------------------------------------------*/
