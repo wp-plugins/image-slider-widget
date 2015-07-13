@@ -69,6 +69,33 @@ function ewic_check_browser_version_admin( $sid ) {
 
 
 /*-------------------------------------------------------------------------------*/
+/*   Remove Images
+/*-------------------------------------------------------------------------------*/
+function ewic_img_remove() {
+	
+	check_ajax_referer( 'ewic-remove', 'security' );
+	
+	if ( !isset( $_POST['pstid'] ) || !current_user_can( 'edit_theme_options' ) ) {
+		
+		wp_die();
+		
+		}
+		
+		else {
+
+			update_post_meta( $_POST['pstid'], 'ewic_meta_select_images', '' );
+			
+			echo '1';
+			
+			wp_die();
+			
+		}
+		
+}
+add_action( 'wp_ajax_ewic_img_remove', 'ewic_img_remove' );
+
+
+/*-------------------------------------------------------------------------------*/
 /*   AJAX Get Slider List
 /*-------------------------------------------------------------------------------*/
 function ewic_grab_slider_list_ajax() {
@@ -509,6 +536,91 @@ function _ewicaffiliateFetchmode( $api_params ) {
 			
 }
 
+
+function mg_existing_sel($media) {
+	if(is_array($media)) {
+		$new_array = array();
+		
+		foreach($media as $media_id) {
+			if( get_the_title($media_id)) {	
+				$new_array[] = $media_id;
+			}
+		}
+		
+		if(count($new_array) == 0) {return false;}
+		else {return $new_array;}
+	}
+	else {return false;}	
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/* Timthumb Check @since 1.1.17
+/*-------------------------------------------------------------------------------*/
+
+function ewic_timthumb_check() {
+	
+	check_ajax_referer( 'ewic-tt-nonce', 'security' );
+	
+	$file = $_POST['turl'];
+	
+	$checknow = @fopen( $file, 'w' );
+	
+	if( $checknow ){
+			
+		fclose( $checknow );
+		unlink( $file );
+		
+			echo '1';
+
+		} else {
+			
+			wp_die();
+			
+		}
+		
+	wp_die();
+
+}
+
+add_action('wp_ajax_ewic_timthumb_check', 'ewic_timthumb_check');
+
+
+function ewic_generate_timthumb( $url, $w, $h ) {
+	
+	if ( $url ) {
+		
+		if ( $w ) {
+			
+			$w = $w;
+			
+			} else {
+				
+				$w = '650';
+				
+				}
+				
+		if ( $h != 'auto' && $h != '' ) {
+			
+			$h = '&h='.$h.'&zc=1';
+			
+			} else {
+				
+				$h = '';
+				
+				}
+		
+		$newimg = EWIC_TIMTHUMB.'?src='.$url.'&w='.$w.$h.'&q=100';
+		
+	} else {
+		
+		$newimg = '';
+		
+		}
+	
+	return $newimg;
+	
+}
 
 
 ?>

@@ -10,13 +10,15 @@ function ewic_generate_slider( $id, $iswidget ) {
 	$allimgs = get_post_meta( $id, 'ewic_meta_select_images', true );
 	$imgsize = get_post_meta( $id, 'ewic_meta_thumbsizelt', true );
 	$easing = get_post_meta( $id, 'ewic_meta_settings_effect', true );
+	$tthumb = get_post_meta( $id, 'ewic_meta_slide_timthumb', true );
+	$smartttl = get_post_meta( $id, 'ewic_meta_settings_smartttl', true );
 	( get_post_meta( $id, 'ewic_meta_slide_auto', true ) == 'on' ) ? $disenauto = 'true' : $disenauto = 'false';
 	( get_post_meta( $id, 'ewic_meta_slide_title', true ) == 'on' ) ? $disenttl = 'true' : $disenttl = 'false';
 	( get_post_meta( $id, 'ewic_meta_slide_lightbox_autoslide', true ) == 'on' ) ? $disenlbauto = 'true' : $disenlbauto = 'false';
 	
 	if ( is_array( $imgsize ) ) {
 		
-		if ( $imgsize['width'] == 'auto' ) {
+		if ( $imgsize['width'] == 'auto' || $imgsize['width'] == '' ) {
 			$sw = '0';
 		} else {
 			$sw = $imgsize['width'];
@@ -40,18 +42,40 @@ function ewic_generate_slider( $id, $iswidget ) {
 	echo '<div id="preloader'.$iswidget.'-'.$id.'" class="sliderpreloader"></div>';
 	echo '<ul style="display:none;" class="bxslider'.$iswidget.'-'.$id.'">';
 		foreach( $allimgs as $dat ) {
-			$img = wp_get_attachment_image_src( $dat['images'], 'full' );
+			
+			// Timthumb Option @since @since 1.1.17
+			if ( $sw != '0' && $tthumb == 'on' ) {
+				
+				$timg = wp_get_attachment_image_src( $dat['images'], 'full' );
+				$img = ewic_generate_timthumb( $timg[0], $sw, $imgsize['height'] );
+				$imgtrgt = $timg[0];
+			
+				} else {
+				
+					$timg = wp_get_attachment_image_src( $dat['images'], 'full' );
+					$img = $timg[0];
+					$imgtrgt = $img;
+				
+					}
+					
+			// End Timthumb
+			
 			if ( $dat['ttl'] ) {
-				$isttl = 'title="'.$dat['ttl'].'"';
+				if ( $smartttl ) {
+					$isttl = 'title="'.ucwords( str_replace( '-', ' ', $dat['ttl'] ) ).'"';
+					} else {
+						$isttl = 'title="'.$dat['ttl'].'"';
+						}
 				}
 				else {
 					$isttl = '';
 					}
+					
 			if (get_post_meta( $id, 'ewic_meta_slide_lightbox', true ) == 'on' ) {
-				echo'<li class="ewic-slider"><a href="'.$img[0].'" title="'.$dat['ttl'].'" rel="ewic'.$iswidget.'prettyPhoto['.$id.']"><img '.$isttl.' class="ewic-wid-imgs" src="'.$img[0].'" /></a></li>';
+				echo'<li class="ewic-slider"><a href="'.$imgtrgt.'" '.$isttl.' rel="ewic'.$iswidget.'prettyPhoto['.$id.']"><img '.$isttl.' class="ewic-wid-imgs" src="'.$img.'" /></a></li>';
 				
 				} else {
-					echo'<li class="ewic-slider"><img '.$isttl.' class="ewic-wid-imgs" src="'.$img[0].'" /></li>';
+					echo'<li class="ewic-slider"><img '.$isttl.' class="ewic-wid-imgs" src="'.$img.'" /></li>';
 					}
 					
 			}

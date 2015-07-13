@@ -3,8 +3,7 @@ jQuery(document).ready(function($){
 	var images_frame;
 	var $images_ids = $('#image_list_id');
 	var $all_images = $('#ewic_images_container ul.images_list');
-	var $images_no = $('.noimgs');
-	
+
 	jQuery('.ewic_add_images').on( 'click', function( event ) {
 		
 		var $el = $(this);
@@ -39,7 +38,9 @@ jQuery(document).ready(function($){
 				 attachment = attachment.toJSON();
 				 
 				 if ( attachment.id ) {
-					 		$images_no.hide();
+					 
+					 	$('.noimgs').remove();
+							
                             attachment_ids = attachment_ids ? attachment_ids + "," + attachment.id : attachment.id;
 							
 							if ( typeof attachment.sizes.thumbnail == "undefined" ) {
@@ -76,14 +77,57 @@ jQuery(document).ready(function($){
 			
             // Remove images
             $('#ewic_images_container').on( 'click', '.ewic-del-images', function() {
+				
 				jQuery(this).parent().fadeOut(500, function() { 
+				
 					$(this).closest('li.ewicthumbhandler').remove();
-					if ( $('.ewic-del-images').length == '0' ) {
-						$images_no.show();
-						}
+					
+						ewic_is_img_exist(jQuery('.ewic-del-images'));
+						
 					});
+					
                 return false;
+				
             } );
+			
+			
+		function ewic_is_img_exist(sel) {
+			
+			if ( !$(sel).length ) {
+				
+				dat = {};
+				dat['action'] = 'ewic_img_remove';
+				dat['pstid'] = $all_images.data('postid');
+				dat['security'] = $all_images.data('nonce');
+				
+				jQuery.ajax({
+					url: ajaxurl,
+					type: 'POST',
+					dataType: 'json',
+					data: dat,
+		
+					success: function(response) {
+			
+						if( response ) {
+							
+							$('.images_list').html('<p class="noimgs">No images selected... </p>');
+				
+							} else {
+								
+								alert('Ajax Failed, please try again.');
+								
+								}
+		
+						// end success-		
+						}
+			
+					// end ajax
+				});	
+				
+				
+			}
+			
+		}
 			
 			
 			 // Upgrade Popup
@@ -96,6 +140,55 @@ jQuery(document).ready(function($){
 					return false;
 					
 				});	
+				
+
+			/* Timthumb Check */
+			$("#ewic-tt-check").on('click', function() {
+
+				timthumb_checker($(this));
+				
+				$(this).text('Please Wait...');
+				
+				});
+			
+			
+			function timthumb_checker(el) {
+				
+				dat = {};
+				dat['action'] = 'ewic_timthumb_check';
+				dat['turl'] = el.data('ucheck');
+				dat['security'] = el.data('tnonce');
+				
+				jQuery.ajax({
+					url: ajaxurl,
+					type: 'POST',
+					dataType: 'json',
+					data: dat,
+		
+					success: function(response) {
+			
+						if( response ) {
+							
+							el.text('Click here to Check Timthumb Compatibility');
+							alert('Great! Your hosting / Server support for use Timthumb. Just turn the option ON.');
+				
+							} else {
+								
+								el.text('Click here to Check Timthumb Compatibility');
+								alert('Oops! Your hosting / Server NOT support for use Timthumb.');
+								
+								}
+		
+						// end success-		
+						}
+			
+					// end ajax
+				});	
+
+				
+			}
+
+
 			
 });	
 

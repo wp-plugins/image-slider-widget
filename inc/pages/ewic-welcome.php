@@ -54,7 +54,7 @@ class EWIC_Welcome {
     		add_submenu_page('edit.php?post_type=easyimageslider', 'Getting started with '.EWIC_NAME.'', 'Getting started with '.EWIC_NAME.'', $this->minimum_capability, 'ewic-getting-started', array( $this, 'ewic_getting_started_screen') );
 			
 			// Free Plugins Page
-    		add_submenu_page('edit.php?post_type=easyimageslider', 'GhozyLab Free Plugin', 'GhozyLab Free Plugin', $this->minimum_capability, 'ewic-free-plugins', array( $this, 'free_plugins_screen') );
+    		add_submenu_page('edit.php?post_type=easyimageslider', 'Free Install Plugins', 'Free Install Plugins', $this->minimum_capability, 'ewic-free-plugins', array( $this, 'free_plugins_screen') );
 			
 			// Premium Plugins Page
     		add_submenu_page('edit.php?post_type=easyimageslider', 'Premium Plugins', 'Premium Plugins', $this->minimum_capability, 'ewic-premium-plugins', array( $this, 'premium_plugins_screen') );
@@ -84,8 +84,8 @@ class EWIC_Welcome {
 	public function ewic_admin_head() {
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-changelog' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-getting-started' );
-		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-free-plugins' );
-		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-premium-plugins' );
+		//remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-free-plugins' );
+		//remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-premium-plugins' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-addons' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-earn-xtra-money' );
 

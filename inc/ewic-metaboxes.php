@@ -140,13 +140,11 @@ function ewic_create_meta_box( $post, $meta_box )
 				break;
 		
 			case 'imagepicker':
-
-			$metattl = get_post_meta( $post->ID, 'ewic_meta_select_titles', true );
 			
 				echo '<td>
 				<span id="intro1" class="ewic_add_images">Add Images</span>
 				<div id="ewic_images_container">
-				<ul class="images_list ui-sortable">';
+				<ul data-nonce="'.wp_create_nonce( 'ewic-remove' ).'" data-postid="'.$post->ID.'" class="images_list ui-sortable">';
 				
 
 				if ( is_array( $meta ) ) {
@@ -346,6 +344,14 @@ function ewic_metabox_work(){
 					'stdh' => 'auto',					
 					"pixopr" => 'px',
 					),
+					
+			array(
+					'name' => __( 'Use Timthumb', 'easywic' ),
+					'desc' => __( 'Using Timthumb can load slider images more faster but make sure your hosting / server support for use Timthumb and your slider width must be use spesific size ( not auto ) and we recommend you to set slider height to auto.<span data-tnonce="'.wp_create_nonce( 'ewic-tt-nonce' ).'" style="color:#0073AA; width: auto;" data-ucheck="'.dirname(__FILE__).'/class/cache/'.time().'.txt'.'" id="ewic-tt-check">Click here to Check Timthumb Compatibility</span>', 'easywic' ),
+					'id' => 'ewic_meta_slide_timthumb',
+					'type' => 'checkbox',
+					'std' => 'off'
+					),	
 				 
 			array(
 					'name' => __( 'Auto Slide', 'easywic' ),
@@ -408,6 +414,14 @@ function ewic_metabox_work(){
 					'id' => 'ewic_meta_slide_title',
 					'type' => 'checkbox',
 					'std' => 'on'
+					),	
+					
+			array(
+					'name' => __( 'Smart Title', 'easywic' ),
+					'desc' => __( 'If ON the plugin will automatically convert uppercase the first character of each word and replace - with spaces in a title. For example : Ferrari-F12-Berlinetta-interior will change to Ferrari F12 Berlinetta Interior', 'easywic' ),
+					'id' => 'ewic_meta_settings_smartttl',
+					'type' => 'checkbox',
+					'std' => 'off'
 					),	
 					
 			array(
