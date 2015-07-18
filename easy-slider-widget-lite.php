@@ -4,7 +4,7 @@ Plugin Name: Easy Image Slider (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.17
+Version: 1.1.19
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -39,7 +39,7 @@ define( 'EWIC_API_URLCURL', 'https://secure.ghozylab.com/' );
 define( 'EWIC_API_URL', 'http://secure.ghozylab.com/' );
 
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.17' );
+	define( 'EWIC_VERSION', '1.1.19' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -260,24 +260,24 @@ add_filter( 'manage_posts_custom_column',  'easyimageslider_columns_edit_columns
 /*  All Includes
 /*-------------------------------------------------------------------------------*/
 
-include_once( 'inc/functions/ewic-functions.php' );
-include_once( 'inc/ewic-tinymce.php' );
-include_once( 'inc/ewic-metaboxes.php' ); 
-include_once( 'inc/ewic-widget.php' ); 
-include_once( 'inc/ewic-shortcode.php' ); 
+include_once( dirname( __FILE__ ) . '/inc/functions/ewic-functions.php' );
+include_once( dirname( __FILE__ ) . '/inc/ewic-tinymce.php' );
+include_once( dirname( __FILE__ ) . '/inc/ewic-metaboxes.php' ); 
+include_once( dirname( __FILE__ ) . '/inc/ewic-widget.php' ); 
+include_once( dirname( __FILE__ ) . '/inc/ewic-shortcode.php' ); 
 
 /*-------------------------------------------------------------------------------*/
 /*   Featured Plugins Page
 /*-------------------------------------------------------------------------------*/
 if ( is_admin() ){
 	
-	require_once( 'inc/pages/ewic-freeplugins.php' );
-	require_once( 'inc/pages/ewic-featured.php' );
-	include_once( 'inc/pages/ewic-pricing.php' ); 
-	require_once( 'inc/pages/ewic-settings.php' );
-	require_once( 'inc/pages/ewic-addons.php' );
-	require_once( 'inc/ewic-notice.php' );
-	include_once( 'inc/pages/ewic-welcome.php' );
+	include_once( dirname( __FILE__ ) . '/inc/pages/ewic-freeplugins.php' );
+	include_once( dirname( __FILE__ ) . '/inc/pages/ewic-featured.php' );
+	include_once( dirname( __FILE__ ) . '/inc/pages/ewic-pricing.php' ); 
+	include_once( dirname( __FILE__ ) . '/inc/pages/ewic-settings.php' );
+	include_once( dirname( __FILE__ ) . '/inc/pages/ewic-addons.php' );
+	include_once( dirname( __FILE__ ) . '/inc/ewic-notice.php' );
+	include_once( dirname( __FILE__ ) . '/inc/pages/ewic-welcome.php' );
 	
 	}
 	
