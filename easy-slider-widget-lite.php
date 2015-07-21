@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Easy Image Slider (Lite)
+Plugin Name: Image Slider (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
-Description: Easy Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
+Description: Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.19
+Version: 1.1.21
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -39,11 +39,11 @@ define( 'EWIC_API_URLCURL', 'https://secure.ghozylab.com/' );
 define( 'EWIC_API_URL', 'http://secure.ghozylab.com/' );
 
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.19' );
+	define( 'EWIC_VERSION', '1.1.21' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
-	define( 'EWIC_NAME', 'Easy Image Slider (Lite)' );
+	define( 'EWIC_NAME', 'Image Slider (Lite)' );
 	}
 	
 // Pro Price
@@ -124,8 +124,8 @@ add_action( 'admin_print_styles', 'ewic_admin_stylesheet' );
 /*-------------------------------------------------------------------------------*/
 function ewic_post_type() {
 	$labels = array(
-		'name' 				=> _x( 'Easy Slider', 'post type general name' ),
-		'singular_name'		=> _x( 'Easy Slider', 'post type singular name' ),
+		'name' 				=> _x( 'Image Slider', 'post type general name' ),
+		'singular_name'		=> _x( 'Image Slider', 'post type singular name' ),
 		'add_new' 			=> __( 'Add New Slider', 'easywic' ),
 		'add_new_item' 		=> __( 'Slider Item', 'easywic' ),
 		'edit_item' 		=> __( 'Edit Slider', 'easywic' ),
@@ -135,7 +135,7 @@ function ewic_post_type() {
 		'not_found' 		=> __( 'No Slider Found', 'easywic' ),
 		'not_found_in_trash'=> __( 'No Slider Found In Trash', 'easywic' ),
 		'parent_item_colon' => __( 'Parent Slider', 'easywic' ),
-		'menu_name'			=> __( 'Easy Slider', 'easywic' )
+		'menu_name'			=> __( 'Image Slider', 'easywic' )
 	);
 
 	$taxonomies = array();

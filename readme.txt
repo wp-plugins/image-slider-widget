@@ -1,10 +1,10 @@
- === Easy Image Slider ===
+ === Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: slider, slider plugin, wordpress slider, best slider plugin, coin slider, 3D slider, coinslider, content slider, content slideshow, custom video slider, featured-content-slider, flex slider, free video slider, free video slideshow, Horizontal slider, HTML5 slider, image, Image Rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, Photo Slider, picture slider, plugin, Post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, widget slideshow, widgets, wordpress seo, wordpress slideshow, wp, wp slider, carousel, carousel slider
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.1.19
+Stable tag: 1.1.21
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,7 +49,7 @@ You can also select and insert multiple images into your slider only by click **
 We already provide **slider image lightbox** option in slider settings so you can set the slider to opened into the lightbox when it's clicked. What more?
 
 = Responsive Slider =
-If you are interested in adding top class **slider** on your website then here you will find the right slider plugin which will assist you to do that properly. Easy Image Slider will speed up the daily web design or development work.
+If you are interested in adding top class **slider** on your website then here you will find the right slider plugin which will assist you to do that properly. Image Slider will speed up the daily web design or development work.
 This slider plugin fully responsive and will adapt to any devices, Firefox, Chrome, Safari, iOS, Android, IE7+
 
 ### Plugin in Action (lite)
@@ -78,16 +78,16 @@ This slider plugin fully responsive and will adapt to any devices, Firefox, Chro
 The powerful plugin settings panel makes deep customization possible. It means that the interface is adaptive, user can add or remove slider navigator, slider arrow navigator and slider thumbnail navigator, or any decoration interface.
 
 = 360+ Slideshow Effects/Transitions ( Pro ) =
-Easy Image Slider Pro comes with 360+ awesome **slideshow** effects, and the most scalable slideshow transition build tool enables you build infinite slideshow transitions.
+Image Slider Pro comes with 360+ awesome **slideshow** effects, and the most scalable slideshow transition build tool enables you build infinite slideshow transitions.
 
 = 390+ Title Effects/Transitions ( Pro ) =
 Tons of options enable you build your own title transition. You can start with fade, move, clip, wave, jump, rotate or zoom transitions, and so many more that you can imagine. And you can combine 2 or more transitions as well.
 
 = Cross Browser, All Browsers Supported ( Pro ) =
-Easy Image Slider Pro is cross browser slider plugin, all browsers are supported (IE 6+, Firefox 2+, Chrome 3+, Safari 3+, Opera 10+, iOS Safari, Opera Mobile, Android Browser, iPhone, iPad, Mac, Windows Surface etc.).
+Image Slider Pro is cross browser slider plugin, all browsers are supported (IE 6+, Firefox 2+, Chrome 3+, Safari 3+, Opera 10+, iOS Safari, Opera Mobile, Android Browser, iPhone, iPad, Mac, Windows Surface etc.).
 
 = Full Responsive =
-Easy Image Slider Pro is reponsive by calling API. The API method $ScaleWidth is the best performance responsive slider carousel approach, Easy Image Slider Pro can be scaled to any size at realtime.
+Image Slider Pro is reponsive by calling API. The API method $ScaleWidth is the best performance responsive slider carousel approach, Image Slider Pro can be scaled to any size at realtime.
 
 = Touch Swipe by Finger/Mouse ( Pro ) =
 When touch the Slider, it will freeze and then move to the direction that finger swipes to.
@@ -110,7 +110,7 @@ If any problem occurs or if you think, that you found a bug please contact us at
 
 = For automatic installation: =
 
-The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Image Slider Widget' in the search field.
+The simplest way to install is to click on 'Plugins' then 'Add' and type 'Image Slider Widget' in the search field.
 
 = For manual installation 1: =
 
@@ -133,17 +133,17 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy I
 
 = How can I get support? =
 
-* We are not able to provide anything other than community based support for Easy Image Slider Widget. Please consider upgrading to [Easy Image Slider Widget Professional](http://ghozylab.com/plugins/) for support.
+* We are not able to provide anything other than community based support for Image Slider Widget. Please consider upgrading to [Image Slider Widget Professional](http://ghozylab.com/plugins/) for support.
 
 
 = How can I say thanks? =
 
 * Just recommend our plugin to your friends! or
 * If you really love Easy Notify any donation would be appreciated! It helps to continue the development and support of the plugin.
-But seriously, I just want to drink coffee for free, so help a developer out. You can use this link [Donate to Easy Image Slider Widget][slider donate].
+But seriously, I just want to drink coffee for free, so help a developer out. You can use this link [Donate to Image Slider Widget][slider donate].
 
 [slider donate]: http://ghozylab.com/plugins/donate
-            "Donate to Easy Image Slider Widget"
+            "Donate to Image Slider Widget"
 
 
 == Screenshots ==
@@ -157,6 +157,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 7. Pro Version Slider Options
 
 == Changelog ==
+
+= 1.1.21 =
+* Update : Plugin Title
 
 = 1.1.19 =
 * Fixed : Include method
@@ -231,13 +234,13 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 = 1.0.0 =
 * This is the launch version. No changes yet.
 
-==Easy Image Slider step by step guide==
+==Image Slider step by step guide==
 
-There are no complicated instructions for using Easy Image Slider plugin because this slider plugin designed to make all easy. Please watch the following video and we believe that you will easily to understand it just in minutes :
+There are no complicated instructions for using Image Slider plugin because this slider plugin designed to make all easy. Please watch the following video and we believe that you will easily to understand it just in minutes :
 
 [youtube https://www.youtube.com/watch?v=-W8u_t05K2Y]
 
 == Upgrade Notice ==
 
-= 1.1.19 =
+= 1.1.21 =
 IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!
