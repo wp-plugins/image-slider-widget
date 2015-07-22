@@ -61,7 +61,7 @@ function ewic_generate_slider( $id, $iswidget ) {
 			// End Timthumb
 			
 			if ( $dat['ttl'] ) {
-				if ( $smartttl ) {
+				if ( $smartttl == 'on' ) {
 					$isttl = 'title="'.ucwords( str_replace( '-', ' ', $dat['ttl'] ) ).'"';
 					} else {
 						$isttl = 'title="'.$dat['ttl'].'"';
