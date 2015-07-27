@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: slider, slider plugin, wordpress slider, best slider plugin, coin slider, 3d slider, facebook, google, wordpress, twitter, coinslider, content slider, content slideshow, custom video slider, featured-content-slider, flex slider, free video slider, free video slideshow, horizontal slider, html5 slider, image, image rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, photo slider, picture slider, plugin, post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, shortcode, widget slideshow, widgets, wordpress seo, wordpress slideshow, wp, wp slider, carousel, carousel slider
 Requires at least: 3.5
-Tested up to: 4.3
+Tested up to: 4.2.3
 Stable tag: 1.1.21
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
