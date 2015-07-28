@@ -1,24 +1,24 @@
  === Image Slider ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: slider, slider plugin, wordpress slider, best slider plugin, coin slider, 3d slider, facebook, google, wordpress, twitter, coinslider, content slider, content slideshow, custom video slider, featured-content-slider, flex slider, free video slider, free video slideshow, horizontal slider, html5 slider, image, image rotator, image slider, image slideshow, images, javascript slider, javascript slideshow, jquery slider, jquery slideshow, media, nivo slider, nivoslider, page, photo slider, picture slider, plugin, post, posts, posts slider, recent post slider, responsive, responsive slider, responsive slideshow, seo, slide, slide show, slider shortcode, slider widget, slides, slideshow, slideshow manager, slideshow plugin, vertical slider, vertical slides, widget, widget slider, shortcode, widget slideshow, widgets, wordpress seo, wordpress slideshow, wp, wp slider, carousel, carousel slider
+Tags: image, slider, image slider, plugin slider, slider plugin, best slider, wordpress slider, free slider, wp slider, best slider plugin, meta slider, coin slider, facebook, google, wordpress, twitter, image slideshow, images slider, jquery slider, jquery slideshow, photo slider, picture slider, plugin, plugins, admin, page, post, posts, responsive slider, responsive slideshow, seo, slide, slider shortcode, slider widget, slides, slideshow, slideshow plugin, widget, widget slider, shortcode, widget slideshow, widgets, wordpress slideshow, carousel, carousel slider
 Requires at least: 3.5
 Tested up to: 4.2.3
 Stable tag: 1.1.21
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Slider - Create image slider for posts, page or even in your sidebar just in minutes.
+Image Slider - Create image slider for posts, page or even in your sidebar just in minutes.
 
 == Description ==
 = Responsive Slider Plugin =
-Best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "slider plugin")** plugin to your post/page/widget or sidebar area. Allows you to customize the **slider** to looking exactly what you want.
+**Image Slider** is the best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "slider plugin")** plugin for your post/page/widget or sidebar area. Allows you to customize the **slider** to looking exactly what you want.
+
+The [slider image](https://wordpress.org/plugins/image-slider-widget/ "slider image") is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
 
 With the built-in transition effects, you can easily create stunning [image slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "image slider plugin") without writing any JavaScript or CSS codes.
 
 With a self-explanatory user interface, the plugin is extremely easy to use. With the provided shortcode generator, it's also easy to insert the **slider** to your post, page and widget.
-
-The [slider image](https://wordpress.org/plugins/image-slider-widget/ "slider image") is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
 
 ### Live Demo
 > 
