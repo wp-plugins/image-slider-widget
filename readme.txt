@@ -155,6 +155,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 5. Slider on Pro Version ( with Thumbnails on Left )
 6. Slider on Lightbox Mode
 7. Pro Version Slider Options
+8. Easy to insert Slider in Widget Area
 
 == Changelog ==
 
