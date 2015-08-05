@@ -34,6 +34,8 @@ function ewic_load_script() {
 			wp_enqueue_script( 'jquery-ui-slider' );
 			wp_enqueue_script( 'ewic-introjs' );
 			wp_enqueue_script( 'ewic-bootstrap-js' );
+			wp_enqueue_script( 'ewic-no-toggle', plugins_url( 'js/metabox/no-toggle.js' , __FILE__ ), array('jquery'), 1, true ); // @since 1.1.23
+        	wp_enqueue_script('ewic-no-toggle');
 			
 			add_action('admin_footer', 'ewic_upgrade_popup' );
 					
@@ -48,6 +50,7 @@ function ewic_admin_head_script () {
             
 			<style type="text/css" media="screen">
 			#minor-publishing { display: none !important; }
+			.media-toolbar-secondary .spinner { float: left; margin-right: 5px; }
 			@media only screen and (min-width: 1150px) {	
 		    	#side-sortables.fixed { position: fixed; top: 55px; right: 20px; width: 280px; }
 				}	
@@ -327,7 +330,7 @@ function ewic_metabox_work(){
 	    $meta_box = array(
 		'id' => 'ewic_meta_settings',
 		'title' =>  __( 'Settings', 'easywic' ),
-		'description' => __( 'You can change the look of your image slider to fit your needs here.<br /><div class="ewicinfobox">Upgrade to PRO VERSION and you will get awesome slider options like <a href="http://demo.ghozylab.com/content/ewicpro.html" target="_blank">this</a></div>', 'easywic' ),
+		'description' => __( 'You can change the look of your image slider to fit your needs here.<br /><div class="ewicinfobox">Upgrade to PRO VERSION and you will get awesome slider options like <a href="http://demo.ghozylab.com/content/ewicpro.html" target="_blank">this screenshot</a></div>', 'easywic' ),
 		'page' => 'easyimageslider',
 		'context' => 'normal',
 		'priority' => 'default',

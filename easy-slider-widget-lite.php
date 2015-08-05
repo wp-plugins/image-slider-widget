@@ -4,7 +4,7 @@ Plugin Name: Image Slider (Lite)
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Image Slider (Lite) - Displaying your image as slider in post/page/widget/sidebar area with very easy.<a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.21
+Version: 1.1.23
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -39,7 +39,7 @@ define( 'EWIC_API_URLCURL', 'https://secure.ghozylab.com/' );
 define( 'EWIC_API_URL', 'http://secure.ghozylab.com/' );
 
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.21' );
+	define( 'EWIC_VERSION', '1.1.23' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {

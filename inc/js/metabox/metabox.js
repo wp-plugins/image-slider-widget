@@ -6,6 +6,19 @@ jQuery(document).ready(function($){
 
 	jQuery('.ewic_add_images').on( 'click', function( event ) {
 		
+		jQuery('#ewic-mm-additional-note').remove();
+		
+		var eshownote = function(){
+			
+		jQuery('<p id="ewic-mm-additional-note" style="display:none; color:red;margin-left:10px;float:right;margin-top:16px;font-style:italic;">NOTE: Use <strong>Ctrl + Click</strong> on each image to select multiple images at once</p>').insertAfter( jQuery('#media-attachment-date-filters') );
+		
+		jQuery('#ewic-mm-additional-note').fadeIn(500);
+		
+			};
+		setTimeout(eshownote, 300);
+		
+		clearTimeout(eshownote);
+		
 		var $el = $(this);
 		var attachment_ids = $images_ids.val();
 		var attachment_img;

@@ -343,7 +343,7 @@ class EWIC_Welcome {
 		list( $display_version ) = explode( '-', EWIC_VERSION );
 		?>
 		<div class="wrap about-wrap">
-			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.' %s', 'easywic' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.'', 'easywic' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EWIC_NAME.'. This plugin is ready to make your slider more fancy and better!', 'easywic' ), $display_version ); ?></div>
 			<div class="ewic-badge"><?php printf( __( 'Version %s', 'easywic' ), $display_version ); ?></div>
 
@@ -399,7 +399,7 @@ class EWIC_Welcome {
 		list( $display_version ) = explode( '-', EWIC_VERSION );
 		?>
 		<div class="wrap about-wrap">
-			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.' %s', 'easywic' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.'', 'easywic' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EWIC_NAME.'. This plugin is ready to make your slider more fancy and better!', 'easywic' ), $display_version ); ?></div>
 			<div class="ewic-badge"><?php printf( __( 'Version %s', 'easywic' ), $display_version ); ?></div>
 
@@ -428,7 +428,7 @@ class EWIC_Welcome {
 		list( $display_version ) = explode( '-', EWIC_VERSION );
 		?>
 		<div class="wrap about-wrap" id="ghozy-featured">
-			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.' %s', 'easywic' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.'', 'easywic' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EWIC_NAME.'. This plugin is ready to make your slider more fancy and better!', 'easywic' ), $display_version ); ?></div>
 			<div class="ewic-badge"><?php printf( __( 'Version %s', 'easywic' ), $display_version ); ?></div>
 
@@ -459,7 +459,7 @@ class EWIC_Welcome {
 		list( $display_version ) = explode( '-', EWIC_VERSION );
 		?>
 		<div class="wrap about-wrap" id="ghozy-addons">
-			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.' %s', 'easywic' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.'', 'easywic' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EWIC_NAME.'. This plugin is ready to make your slider more fancy and better!', 'easywic' ), $display_version ); ?></div>
 			<div class="ewic-badge"><?php printf( __( 'Version %s', 'easywic' ), $display_version ); ?></div>
 
@@ -490,7 +490,7 @@ class EWIC_Welcome {
 		list( $display_version ) = explode( '-', EWIC_VERSION );
 		?>
 		<div class="wrap about-wrap" id="ghozy-addons">
-			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.' %s', 'easywic' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EWIC_NAME.'', 'easywic' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EWIC_NAME.'. This plugin is ready to make your slider more fancy and better!', 'easywic' ), $display_version ); ?></div>
 			<div class="ewic-badge"><?php printf( __( 'Version %s', 'easywic' ), $display_version ); ?></div>
 
