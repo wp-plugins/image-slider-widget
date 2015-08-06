@@ -3,6 +3,7 @@ jQuery(document).ready(function($){
 	var images_frame;
 	var $images_ids = $('#image_list_id');
 	var $all_images = $('#ewic_images_container ul.images_list');
+	var $isstyle = 'style="display:block;width:100%"';
 
 	jQuery('.ewic_add_images').on( 'click', function( event ) {
 		
@@ -67,7 +68,7 @@ jQuery(document).ready(function($){
 									}
 							
                              $all_images.append('\
-                                <li class="ewicthumbhandler" data-attachment_id="' + attachment.id + '">\
+                                <li '+$isstyle+' class="ewicthumbhandler" data-attachment_id="' + attachment.id + '">\
 								<input type="hidden" name="ewic_meta[ewic_meta_select_images][' + attachment.id + '][images]" value="' + attachment.id + '" />\
 								<div class="ewic-shorters">\
                                 <img src="' + attachment_img + '" />\
@@ -200,8 +201,52 @@ jQuery(document).ready(function($){
 
 				
 			}
+			
 
 
+			// Tumbnails View @since 1.1.23
+ 			$('#ewic-thumb-view a').bind( 'click', function(event) {
+				
+				event.preventDefault();
+				
+				jQuery('#ewic-thumb-view a').removeClass('current');
+				jQuery(this).addClass('current');
+				
+				if ( jQuery('ul.images_list li').length ) {
+				
+					switch(jQuery(this).attr('id')) {
+					
+						case 'ewiclist':
+					
+							$isstyle = 'style="display:block;width:100%"';
+							jQuery('.ewicthumbhandler').fadeOut(500, function () {
+					
+								jQuery(this).css({'display': 'block', 'width': '100%'}).effect( "highlight", {color:"#FFFADD"}, 1000 );
+
+								});
+					
+						break;
+					
+						case 'ewicgrid':
+					
+							$isstyle = 'style="display:inline-block;width:49.7%"';
+							jQuery('.ewicthumbhandler').fadeOut(500, function () {
+						
+								jQuery(this).css({'display': 'inline-block', 'width': '49.7%'}).effect( "highlight", {color:"#FFFADD"}, 1000 );
+						
+								});	
+					
+						break;
+					
+						default:
+					
+						}	
+					
+					}
+				
+				});
+				
+				
 			
 });	
 

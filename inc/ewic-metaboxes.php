@@ -36,6 +36,7 @@ function ewic_load_script() {
 			wp_enqueue_script( 'ewic-bootstrap-js' );
 			wp_enqueue_script( 'ewic-no-toggle', plugins_url( 'js/metabox/no-toggle.js' , __FILE__ ), array('jquery'), 1, true ); // @since 1.1.23
         	wp_enqueue_script('ewic-no-toggle');
+        	wp_enqueue_script('jquery-effects-highlight');
 			
 			add_action('admin_footer', 'ewic_upgrade_popup' );
 					
@@ -49,6 +50,7 @@ function ewic_admin_head_script () {
 			?>
             
 			<style type="text/css" media="screen">
+			a:focus {box-shadow: none !important; }
 			#minor-publishing { display: none !important; }
 			.media-toolbar-secondary .spinner { float: left; margin-right: 5px; }
 			@media only screen and (min-width: 1150px) {	
@@ -65,6 +67,9 @@ function ewic_admin_head_script () {
 					placeholder: 'ui-sortable-placeholder',
 					cursor: 'move',
 					handle: '.ewic-shorters',
+         			start: function(e, ui ){
+             			ui.placeholder.width(ui.helper.outerWidth()-30);
+         				},
 
 					});
 					
@@ -145,7 +150,7 @@ function ewic_create_meta_box( $post, $meta_box )
 			case 'imagepicker':
 			
 				echo '<td>
-				<span id="intro1" class="ewic_add_images">Add Images</span>
+				<div style="width:100%;"><span style="display:inline-block;" id="intro1" class="ewic_add_images">Add Images</span><span class="view-switch" style="float:right;" id="ewic-thumb-view"><a title="List Mode" id="ewiclist" class="view-list" href="#"></a><a title="Grid Mode" id="ewicgrid" class="view-grid" href="#"></a></span></div>
 				<div id="ewic_images_container">
 				<ul data-nonce="'.wp_create_nonce( 'ewic-remove' ).'" data-postid="'.$post->ID.'" class="images_list ui-sortable">';
 				

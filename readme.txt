@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: image, slider, image slider, plugin slider, slider plugin, best slider, wordpress slider, images, free slider, wp slider, best slider plugin, meta slider, coin slider, facebook, google, wordpress, twitter, image slideshow, images slider, jquery slider, jquery slideshow, photo slider, picture slider, plugin, plugins, admin, page, post, posts, responsive slider, responsive slideshow, seo, slide, slider shortcode, slider widget, slides, slideshow, slideshow plugin, widget, widget slider, shortcode, widget slideshow, widgets, wordpress slideshow, carousel, carousel slider
 Requires at least: 3.5
-Tested up to: 4.2.3
+Tested up to: 4.2.4
 Stable tag: 1.1.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
